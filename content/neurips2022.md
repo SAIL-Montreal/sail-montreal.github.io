@@ -2,7 +2,7 @@
 title = "SAIL Montreal @ NeurIPS 2022"
 +++
 
-SAIL Montreal is happy to sponsor NeurIPS 2022! We will have a booth where you can meet some of our research scientists.
+SAIL Montreal is happy to sponsor [NeurIPS 2022](https://neurips.cc/Conferences/2022/)! We will have a booth where you can meet some of our research scientists.
 
 # What is SAIL Montreal?
 [SAIL Montreal](https://www.sait.samsung.co.kr/saithome/about/labs.do) (Samsung - SAIT AI Lab Montreal) is a recently established academic-style research lab (in close collaboration with [Mila](https://mila.quebec/)) whose mission is to advance our fundamental understanding of deep learning technology and its applications. Headed by [Simon Lacoste-Julien](https://mila.quebec/en/person/simon-lacoste-julien/), professor in computer science at Université de Montréal and co-founding member of Mila, SAIL is located in Mila's corporate space at the heart of the Montreal AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an open collaborative environment is encouraged.
@@ -11,15 +11,6 @@ SAIL Montreal is happy to sponsor NeurIPS 2022! We will have a booth where you c
 We are [hiring research scientists](https://www.sait.samsung.co.kr/saithome/about/labs.do)! Scroll down on that page for more information about the position and how to apply.
 
 
-# Finding us
-
-## Booth info
-
-## Poster info
-
-## Workshop info
-
-<!-- more -->
 # Accepted papers
 - <i>[The Curse of Unrolling: Rate of Differentiating Through Optimization](https://arxiv.org/abs/2209.13271)</i><br />
 <u>Damien Scieur</u>, Quentin Bertrand, Gauthier Gidel and Fabian Pedregosa
@@ -37,3 +28,19 @@ Vikram Voleti, <u>Alexia Jolicoeur-Martineau</u>, Christopher Pal
 Konstantin Schürholt, Diyar Taskiran, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth
 
 
+
+# Finding us
+List of people who will be present in New Orleans?
+
+## Booth info
+Expo hall, presumably?
+
+## Poster info
+Dates and times?
+
+## Workshop info
+Our research scientist Alexia Jolicoeur-Martineau co-organizes the [Workshop on Score-Based Methods](https://score-based-methods-workshop.github.io/) on Friday Dec 02 in Room 293-294.
+
+Info about workshop papers and workshops our researchers are intending to attend here?
+
+<!-- more -->
