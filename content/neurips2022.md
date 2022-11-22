@@ -26,7 +26,7 @@ Konstantin Schürholt, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth
 - <i>[MCVD: Masked Conditional Video Diffusion for Prediction](https://nips.cc/virtual/2022/poster/54707)</i> [[arxiv]](https://arxiv.org/abs/2205.09853)<br />
 Vikram Voleti, <u>Alexia Jolicoeur-Martineau</u>, Christopher Pal
 
-- <i>[Model Zoos: A Dataset of Diverse Populations of Neural Network Models](https://nips.cc/virtual/2022/poster/55727)</i> [[openreview]](https://arxiv.org/abs/2209.14764)<br />
+- <i>[Model Zoos: A Dataset of Diverse Populations of Neural Network Models](https://nips.cc/virtual/2022/poster/55727)</i> [[arxiv]](https://arxiv.org/abs/2209.14764)<br />
 Konstantin Schürholt, Diyar Taskiran, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth
 
 
