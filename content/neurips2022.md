@@ -12,6 +12,8 @@ We are [hiring research scientists](https://www.sait.samsung.co.kr/saithome/abou
 
 
 # Accepted papers at NeurIPS 2022
+Click the links for more information on these papers (requires NeurIPS registration).
+
 - <i>[The Curse of Unrolling: Rate of Differentiating Through Optimization](https://nips.cc/virtual/2022/poster/54166)</i> [[arxiv]](https://arxiv.org/abs/2209.13271)<br />
 <u>Damien Scieur</u>, Quentin Bertrand, Gauthier Gidel and Fabian Pedregosa
 
@@ -24,7 +26,7 @@ Konstantin Schürholt, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth
 - <i>[MCVD: Masked Conditional Video Diffusion for Prediction](https://nips.cc/virtual/2022/poster/54707)</i> [[arxiv]](https://arxiv.org/abs/2205.09853)<br />
 Vikram Voleti, <u>Alexia Jolicoeur-Martineau</u>, Christopher Pal
 
-- <i>[Model Zoos: A Dataset of Diverse Populations of Neural Network Models](https://nips.cc/virtual/2022/poster/55727)</i> [[arxiv]](https://openreview.net/forum?id=MOCZI3h8Ye)<br />
+- <i>[Model Zoos: A Dataset of Diverse Populations of Neural Network Models](https://nips.cc/virtual/2022/poster/55727)</i> [[openreview]](https://arxiv.org/abs/2209.14764)<br />
 Konstantin Schürholt, Diyar Taskiran, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth
 
 
@@ -50,15 +52,15 @@ We also have some workshop papers:
 
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://attention-learning-workshop.github.io/2022/papers/zhang-unlocking_slot_attention_by_changing_optimal_transport_costs.pdf)</i><br />
 <u>Yan Zhang</u>\*, David W Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek<br />
-[All Things Attention](https://attention-learning-workshop.github.io/), December 2 (hybrid in-person and virtual)
+Poster at [All Things Attention](https://attention-learning-workshop.github.io/), December 2 (hybrid in-person and virtual)
 
 - <i>[Equivariance With Learned Canonicalization Functions](https://openreview.net/forum?id=pVD1k8ge25a)</i><br />
 Sékou-Oumar Kaba\*, Arnab Kumar Mondal\*, <u>Yan Zhang</u>, Yoshua Bengio, Siamak Ravanbakhsh<br />
-[Symmetry and Geometry in Neural Representations](https://www.neurreps.org/) **oral**, December 3 (in-person)
+Oral at [Symmetry and Geometry in Neural Representations](https://www.neurreps.org/), December 3 (in-person)
 
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://ncsi.cause-lab.net/pdf/nCSI_2.pdf)</i><br />
 <u>Yan Zhang</u>\*, David W Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek<br />
-[Neuro Causal and Symbolic AI](https://ncsi.cause-lab.net/) **oral**, December 9 (virtual)
+Oral at [Neuro Causal and Symbolic AI](https://ncsi.cause-lab.net/), December 9 (virtual)
 
 
 <!-- more -->
