@@ -30,7 +30,7 @@ Konstantin Schürholt, Diyar Taskiran, <u>Boris Knyazev</u>, Xavier Giró-i-Niet
 
 
 # Finding us
-Our following research scientists will be available in-person at NeurIPS 2022:
+The following research scientists will be available in-person at NeurIPS 2022:
 - [Damien Scieur](https://scholar.google.com/citations?user=hNscQzgAAAAJ)
 - [Reza Babanezhad](https://scholar.google.ca/citations?hl=en&user=KLrwPsgAAAAJ)
 - [Marwa El Halabi](https://scholar.google.com/citations?user=Vd6RW7cAAAAJ)
@@ -41,7 +41,7 @@ Our following research scientists will be available in-person at NeurIPS 2022:
 You can find the full list of people on our [main website](https://www.sait.samsung.co.kr/saithome/about/labs.do).
 
 ## Booth
-Our booth will be at the Expo hall #224. Our office manager Geneviève Bernard will be there most of the time with a rotating cast of research scientists.
+Our booth will be at the Expo hall #224. Our office manager Geneviève Bernard will be there most of the time, with a rotating cast of research scientists.
 
 ## Workshops
 Our research scientist Alexia Jolicoeur-Martineau co-organizes the [Workshop on Score-Based Methods](https://score-based-methods-workshop.github.io/) on Friday Dec 2 in Room 293-294.
@@ -49,15 +49,15 @@ Our research scientist Alexia Jolicoeur-Martineau co-organizes the [Workshop on 
 We also have some workshop papers:
 
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://attention-learning-workshop.github.io/2022/papers/zhang-unlocking_slot_attention_by_changing_optimal_transport_costs.pdf)</i><br />
-<u>Yan Zhang</u>\*, David W Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek
+<u>Yan Zhang</u>\*, David W Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek<br />
 [All Things Attention](https://attention-learning-workshop.github.io/), December 2 (hybrid in-person and virtual)
 
-- <i>[Equivariance With Learned Canonicalization Functions](https://openreview.net/forum?id=pVD1k8ge25a)</i>
-Sékou-Oumar Kaba\*, Arnab Kumar Mondal\*, Yan Zhang, Yoshua Bengio, Siamak Ravanbakhsh
+- <i>[Equivariance With Learned Canonicalization Functions](https://openreview.net/forum?id=pVD1k8ge25a)</i><br />
+Sékou-Oumar Kaba\*, Arnab Kumar Mondal\*, <u>Yan Zhang</u>, Yoshua Bengio, Siamak Ravanbakhsh<br />
 [Symmetry and Geometry in Neural Representations](https://www.neurreps.org/) **oral**, December 3 (in-person)
 
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://ncsi.cause-lab.net/pdf/nCSI_2.pdf)</i><br />
-<u>Yan Zhang</u>\*, David W Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek
+<u>Yan Zhang</u>\*, David W Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek<br />
 [Neuro Causal and Symbolic AI](https://ncsi.cause-lab.net/) **oral**, December 9 (virtual)
 
 
