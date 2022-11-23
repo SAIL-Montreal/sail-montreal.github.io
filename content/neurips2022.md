@@ -2,6 +2,8 @@
 title = "SAIL Montreal @ NeurIPS 2022"
 +++
 
+
+
 SAIL Montreal is happy to sponsor [NeurIPS 2022](https://neurips.cc/Conferences/2022/)! We will have a booth where you can meet some of our research scientists.
 
 # What is SAIL Montreal?
