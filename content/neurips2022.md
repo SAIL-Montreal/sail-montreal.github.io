@@ -39,7 +39,7 @@ The following research scientists will be available in-person at NeurIPS 2022:
 - [Reza Babanezhad](https://scholar.google.ca/citations?hl=en&user=KLrwPsgAAAAJ)
 - [Marwa El Halabi](https://scholar.google.com/citations?user=Vd6RW7cAAAAJ)
 - [Yan Zhang](https://scholar.google.com/citations?user=XtCqbfEAAAAJ)
-- [Jihye Kim](https://scholar.google.com/citations?user=USrf_BYAAAAJ)
+- [Jihye Kim](https://scholar.google.com/citations?user=USrf_BYAAAAJ) (Visiting Research Scientist)
 - [Aristide Baratin](https://scholar.google.com/citations?user=ZK7OfxkAAAAJ&hl=en&oi=ao)
 
 You can find the full list of people on our [main website](https://www.sait.samsung.co.kr/saithome/about/labs.do).
@@ -48,7 +48,7 @@ You can find the full list of people on our [main website](https://www.sait.sams
 Our booth will be at the Expo hall #224. Our office manager Geneviève Bernard will be there most of the time, with a rotating cast of research scientists.
 
 ## Workshops
-Our research scientist Alexia Jolicoeur-Martineau co-organizes the [Workshop on Score-Based Methods](https://score-based-methods-workshop.github.io/) on Friday Dec 2 in Room 293-294.
+Our research scientist [Alexia Jolicoeur-Martineau](https://scholar.google.com/citations?user=0qytQ1oAAAAJ&hl=en) co-organizes the [Workshop on Score-Based Methods](https://score-based-methods-workshop.github.io/) on Friday December 2 in Room 293-294.
 
 We also have some workshop papers:
 
