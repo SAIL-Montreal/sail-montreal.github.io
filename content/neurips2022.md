@@ -7,7 +7,7 @@ title = "SAIL Montreal @ NeurIPS 2022"
 SAIL Montreal is happy to sponsor [NeurIPS 2022](https://neurips.cc/Conferences/2022/)! We will have a booth where you can meet some of our research scientists.
 
 # What is SAIL Montreal?
-[SAIL Montreal](https://www.sait.samsung.co.kr/saithome/about/labs.do) (Samsung - SAIT AI Lab Montreal) is a recently established academic-style research lab (in close collaboration with [Mila](https://mila.quebec/)) whose mission is to advance our fundamental understanding of deep learning technology and its applications. Headed by [Simon Lacoste-Julien](https://mila.quebec/en/person/simon-lacoste-julien/), professor in computer science at Université de Montréal and co-founding member of Mila, SAIL is located in Mila's corporate space at the heart of the Montreal AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an open collaborative environment is encouraged.
+[SAIL Montreal](https://www.sait.samsung.co.kr/saithome/about/labs.do) (SAIT AI Lab Montreal) is a recently established academic-style research lab (in close collaboration with [Mila](https://mila.quebec/)) from Samsung whose mission is to advance our fundamental understanding of deep learning technology and its applications. Headed by [Simon Lacoste-Julien](https://mila.quebec/en/person/simon-lacoste-julien/), professor in computer science at Université de Montréal and co-founding member of Mila, SAIL is located in Mila's corporate space at the heart of the Montreal AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an open collaborative environment is encouraged.
 
 # We are hiring!
 We are [hiring research scientists](https://www.sait.samsung.co.kr/saithome/about/labs.do)! Scroll down on [that page](https://www.sait.samsung.co.kr/saithome/about/labs.do) for more information about the position and how to apply.
@@ -17,19 +17,25 @@ We are [hiring research scientists](https://www.sait.samsung.co.kr/saithome/abou
 Click the links for more information on these papers (requires NeurIPS registration).
 
 - <i>[The Curse of Unrolling: Rate of Differentiating Through Optimization](https://nips.cc/virtual/2022/poster/54166)</i> [[arxiv]](https://arxiv.org/abs/2209.13271)<br />
-<u>Damien Scieur</u>, Quentin Bertrand, Gauthier Gidel and Fabian Pedregosa
-
-- <i>[Data-Efficient Structured Pruning via Submodular Optimization](https://nips.cc/virtual/2022/poster/54208)</i> [[arxiv]](https://arxiv.org/abs/2203.04940)<br />
-<u>Marwa El Halabi</u>, Suraj Srinivas, Simon Lacoste-Julien
-
-- <i>[Hyper-Representations as Generative Models: Sampling Unseen Neural Network Weights](https://nips.cc/virtual/2022/poster/53429)</i> [[arxiv]](https://arxiv.org/abs/2209.14733)<br />
-Konstantin Schürholt, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth
-
-- <i>[MCVD: Masked Conditional Video Diffusion for Prediction](https://nips.cc/virtual/2022/poster/54707)</i> [[arxiv]](https://arxiv.org/abs/2205.09853)<br />
-Vikram Voleti, <u>Alexia Jolicoeur-Martineau</u>, Christopher Pal
+<u>Damien Scieur</u>, Quentin Bertrand, Gauthier Gidel and Fabian Pedregosa<br />
+Wed 30 Nov 11:30 a.m. CST — 1 p.m. CST @ Hall J #724
 
 - <i>[Model Zoos: A Dataset of Diverse Populations of Neural Network Models](https://nips.cc/virtual/2022/poster/55727)</i> [[arxiv]](https://arxiv.org/abs/2209.14764)<br />
-Konstantin Schürholt, Diyar Taskiran, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth
+Konstantin Schürholt, Diyar Taskiran, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth<br />
+Wed 30 Nov 11:30 a.m. CST — 1 p.m. CST @ Hall J #1017
+
+- <i>[Hyper-Representations as Generative Models: Sampling Unseen Neural Network Weights](https://nips.cc/virtual/2022/poster/53429)</i> [[arxiv]](https://arxiv.org/abs/2209.14733)<br />
+Konstantin Schürholt, <u>Boris Knyazev</u>, Xavier Giró-i-Nieto, Damian Borth<br />
+Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #605
+
+- <i>[MCVD: Masked Conditional Video Diffusion for Prediction](https://nips.cc/virtual/2022/poster/54707)</i> [[arxiv]](https://arxiv.org/abs/2205.09853)<br />
+Vikram Voleti, <u>Alexia Jolicoeur-Martineau</u>, Christopher Pal<br />
+Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #921<br />
+Spotlight: Tue 6 Dec 8 p.m. CST — 8:15 p.m. CST 
+
+- <i>[Data-Efficient Structured Pruning via Submodular Optimization](https://nips.cc/virtual/2022/poster/54208)</i> [[arxiv]](https://arxiv.org/abs/2203.04940)<br />
+<u>Marwa El Halabi</u>, Suraj Srinivas, Simon Lacoste-Julien<br />
+Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #938
 
 
 
