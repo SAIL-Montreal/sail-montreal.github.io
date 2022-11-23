@@ -59,7 +59,7 @@ Our research scientist [Alexia Jolicoeur-Martineau](https://scholar.google.com/c
 We also have some workshop papers:
 
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://attention-learning-workshop.github.io/2022/papers/zhang-unlocking_slot_attention_by_changing_optimal_transport_costs.pdf)</i><br />
-<u>Yan Zhang</u>\*, David W Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek<br />
+<u>Yan Zhang</u>\*, David W Zhang\*, <u>Simon Lacoste-Julien</u>, Gertjan J. Burghouts, Cees G. M. Snoek<br />
 Poster at [All Things Attention](https://attention-learning-workshop.github.io/), December 2 (hybrid in-person and virtual)
 
 - <i>[Equivariance With Learned Canonicalization Functions](https://openreview.net/forum?id=pVD1k8ge25a)</i><br />
@@ -67,7 +67,7 @@ Sékou-Oumar Kaba\*, Arnab Kumar Mondal\*, <u>Yan Zhang</u>, Yoshua Bengio, Siam
 Oral at [Symmetry and Geometry in Neural Representations](https://www.neurreps.org/), December 3 (in-person)
 
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://ncsi.cause-lab.net/pdf/nCSI_2.pdf)</i><br />
-<u>Yan Zhang</u>\*, David W Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek<br />
+<u>Yan Zhang</u>\*, David W Zhang\*, <u>Simon Lacoste-Julien</u>, Gertjan J. Burghouts, Cees G. M. Snoek<br />
 Oral at [Neuro Causal and Symbolic AI](https://ncsi.cause-lab.net/), December 9 (virtual)
 
 
