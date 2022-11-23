@@ -34,7 +34,7 @@ Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #921<br />
 Spotlight: Tue 6 Dec 8 p.m. CST — 8:15 p.m. CST 
 
 - <i>[Data-Efficient Structured Pruning via Submodular Optimization](https://nips.cc/virtual/2022/poster/54208)</i> [[arxiv]](https://arxiv.org/abs/2203.04940)<br />
-<u>Marwa El Halabi</u>, Suraj Srinivas, Simon Lacoste-Julien<br />
+<u>Marwa El Halabi</u>, Suraj Srinivas, <u>Simon Lacoste-Julien</u><br />
 Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #938
 
 
