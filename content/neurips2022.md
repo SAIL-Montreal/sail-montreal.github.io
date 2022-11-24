@@ -67,7 +67,7 @@ Sékou-Oumar Kaba\*, Arnab Kumar Mondal\*, <u>Yan Zhang</u>, Yoshua Bengio, Siam
 Oral at [Symmetry and Geometry in Neural Representations](https://www.neurreps.org/), December 3 (in-person)
 
 - <i>[Target-based Surrogates for Stochastic Optimization](https://openreview.net/forum?id=22tWlk_NycL)</i><br />
-J. Wilder Lavington, Sharan Vaswani, <u>Reza Babanezhad</u>, Mark Schmidt, Nicolas Le Roux
+J. Wilder Lavington, Sharan Vaswani, <u>Reza Babanezhad</u>, Mark Schmidt, Nicolas Le Roux<br />
 Poster at [Optimization for Machine Learning](https://opt-ml.org/), December 3 (in-person)
 
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://ncsi.cause-lab.net/pdf/nCSI_2.pdf)</i><br />
