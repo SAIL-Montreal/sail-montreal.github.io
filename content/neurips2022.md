@@ -66,6 +66,10 @@ Poster at [All Things Attention](https://attention-learning-workshop.github.io/)
 Sékou-Oumar Kaba\*, Arnab Kumar Mondal\*, <u>Yan Zhang</u>, Yoshua Bengio, Siamak Ravanbakhsh<br />
 Oral at [Symmetry and Geometry in Neural Representations](https://www.neurreps.org/), December 3 (in-person)
 
+- <i>[Target-based Surrogates for Stochastic Optimization](https://openreview.net/forum?id=22tWlk_NycL)</i><br />
+J. Wilder Lavington, Sharan Vaswani, <u>Reza Babanezhad</u>, Mark Schmidt, Nicolas Le Roux
+Poster at [Optimization for Machine Learning](https://opt-ml.org/), December 3 (in-person)
+
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://ncsi.cause-lab.net/pdf/nCSI_2.pdf)</i><br />
 <u>Yan Zhang</u>\*, David W Zhang\*, <u>Simon Lacoste-Julien</u>, Gertjan J. Burghouts, Cees G. M. Snoek<br />
 Oral at [Neuro Causal and Symbolic AI](https://ncsi.cause-lab.net/), December 9 (virtual)
