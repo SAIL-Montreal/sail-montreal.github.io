@@ -6,6 +6,8 @@ title = "SAIL Montreal @ NeurIPS 2022"
 
 SAIL Montreal is happy to sponsor [NeurIPS 2022](https://neurips.cc/Conferences/2022/)! We will have a booth where you can meet some of our research scientists.
 
+<!-- more -->
+
 # What is SAIL Montreal?
 [SAIL Montreal](https://www.sait.samsung.co.kr/saithome/about/labs.do) (SAIT AI Lab Montreal) is a recently established academic-style research lab (in close collaboration with [Mila](https://mila.quebec/)) from Samsung whose mission is to advance our fundamental understanding of deep learning technology and its applications. Headed by [Simon Lacoste-Julien](https://mila.quebec/en/person/simon-lacoste-julien/), professor in computer science at Université de Montréal and co-founding member of Mila, SAIL is located in Mila's corporate space at the heart of the Montreal AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an open collaborative environment is encouraged.
 
@@ -73,6 +75,3 @@ Poster at [Optimization for Machine Learning](https://opt-ml.org/), December 3 (
 - <i>[Unlocking Slot Attention by Changing Optimal Transport Costs](https://ncsi.cause-lab.net/pdf/nCSI_2.pdf)</i><br />
 <u>Yan Zhang</u>\*, David W Zhang\*, <u>Simon Lacoste-Julien</u>, Gertjan J. Burghouts, Cees G. M. Snoek<br />
 Oral at [Neuro Causal and Symbolic AI](https://ncsi.cause-lab.net/), December 9 (virtual)
-
-
-<!-- more -->
