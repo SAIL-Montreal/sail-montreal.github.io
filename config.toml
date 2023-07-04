@@ -27,9 +27,6 @@ title = "SAIL Montreal"
 author = "SAIL Montreal"
 logo_text = "SAIL Montreal"
 
-enable_post_view_navigation = false
-post_view_navigation_prompt = ""
-
 menu_items = [
     # each of these is optional, name and url are required
     # $BASE_URL is going to be substituted by base_url from configuration
