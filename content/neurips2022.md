@@ -7,7 +7,7 @@ date = 2022-11-28
 
 SAIL Montreal is happy to sponsor [NeurIPS 2022](https://neurips.cc/Conferences/2022/)! We will have a booth where you can meet some of our research scientists.
 
-<a href="{{ page.permalink }}#continue-reading">Continue Reading</a>
+<a href="/neurips2022/#continue-reading">Continue Reading</a>
 <!-- more -->
 
 # What is SAIL Montreal?
