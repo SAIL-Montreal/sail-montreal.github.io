@@ -1,0 +1,51 @@
+{% extends "pickles/templates/index.html" %}
+
+{% block extra_head -%}
+<style>
+.p-section h2 { margin-top: 1em; }
+.p-papers { margin-top: 1.5em; }
+.p-papers summary { cursor: pointer; font-weight: bold; }
+.p-papers ul { padding-left: 1.2em; }
+.p-papers li { margin-bottom: 1em; }
+.p-papers__meta { display: block; color: #666; }
+.p-papers__authors { display: block; }
+</style>
+{%- endblock extra_head %}
+
+{% block content -%}
+<section class="p-section">
+    <h2>What is SAIL Montreal?</h2>
+    <p>
+        SAIL Montreal (SAIT AI Lab Montreal) is a recently established academic-style
+        research lab (in close collaboration with <a href="https://mila.quebec/">Mila</a>)
+        from Samsung whose mission is to advance our fundamental understanding of deep
+        learning technology and its applications. Headed by Simon Lacoste-Julien,
+        professor in computer science at Université de Montréal and co-founding member
+        of Mila, SAIL is located in Mila's corporate space at the heart of the Montreal
+        AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an
+        open collaborative environment is encouraged.
+    </p>
+
+    {% set papers = load_data(path="papers.json") %}
+    <details class="p-papers">
+        <summary>SAIL published papers ({{ papers | length }})</summary>
+        <ul>
+            {% for paper in papers %}
+            <li>
+                {% if paper.links | length > 0 -%}
+                <a href="{{ paper.links[0] }}">{{ paper.title }}</a>
+                {%- else -%}
+                {{ paper.title }}
+                {%- endif %}
+                <span class="p-papers__meta">{{ paper.venue }}{% if paper.notification %} — {{ paper.notification }}{% endif %}</span>
+                <span class="p-papers__authors">
+                    {%- for author in paper.authors %}
+                    {%- if author.sail %}<u>{{ author.name }}</u>{% else %}{{ author.name }}{% endif %}{%- if not loop.last %}, {% endif %}
+                    {%- endfor %}
+                </span>
+            </li>
+            {% endfor %}
+        </ul>
+    </details>
+</section>
+{%- endblock content %}
