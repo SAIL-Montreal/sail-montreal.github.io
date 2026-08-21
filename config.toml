@@ -1,7 +1,10 @@
 # The URL the site will be built for
 base_url = "https://sail-montreal.github.io"
 
-theme = "anpu"
+title = "SAIL Montreal"
+description = "SAIL Montreal — student society blog"
+
+theme = "pickles"
 
 # Optional: enable tags
 taxonomies = [
@@ -12,23 +15,23 @@ taxonomies = [
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+default_language = "en"
+
 [markdown.highlighting]
-theme = "material-theme-ocean"
+theme = "catppuccin-latte"
 
 [extra]
-# Put all your custom variables here
-author = "SAIL Montreal"
-logo_text = "SAIL Montreal"
+# A line to display underneath the main title
+subtitle = ""
 
-enable_post_view_navigation = false
-post_view_navigation_prompt = ""
+# Text to display in the footer of the page (rendered as inline markdown)
+copyright = "© SAIL Montreal"
 
-menu_items = [
-    # each of these is optional, name and url are required
-    # $BASE_URL is going to be substituted by base_url from configuration
-    
-]
+# Your Google Analytics ID
+analytics = ""
 
-copyright_html = "<script src=\"/instantpage-5.1.0.js\" type=\"module\" defer></script>"
+# KaTeX math formula support
+katex_enable = false
 
-default_language = "en"
+# instant.page prefetching
+instantpage_enable = true
