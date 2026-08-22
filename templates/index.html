@@ -13,6 +13,7 @@
 .p-papers[open] .p-papers__hide { display: inline; }
 .p-papers__meta { display: block; color: #666; }
 .p-papers__authors { display: block; }
+.p-papers__eq { vertical-align: super; font-size: 0.7em; cursor: help; }
 .p-about__photos { display: flex; flex-wrap: wrap; gap: 1em; margin-top: 2em; }
 .p-about__photos img { max-width: 100%; height: auto; }
 .p-people__group { margin-top: 1.5em; }
@@ -31,7 +32,6 @@
 }
 .p-person__links a { margin: 0 0.25em; }
 .p-person__avatar {
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -82,7 +82,7 @@
             <span class="p-papers__meta">{{ paper.venue }}{% if paper.published %} — {{ paper.published }}{% endif %}</span>
             <span class="p-papers__authors">
                 {%- for author in paper.authors %}
-                {%- if author.sail %}<u>{{ author.name }}</u>{% else %}{{ author.name }}{% endif %}{%- if not loop.last %}, {% endif %}
+                {%- if author.sail %}<u>{{ author.name }}</u>{% else %}{{ author.name }}{% endif %}{%- if author.equal %}<span class="p-papers__eq" title="Equal contribution">*</span>{% endif %}{%- if not loop.last %}, {% endif %}
                 {%- endfor %}
             </span>
         </li>
@@ -105,7 +105,7 @@
                 <span class="p-papers__meta">{{ paper.venue }}{% if paper.published %} — {{ paper.published }}{% endif %}</span>
                 <span class="p-papers__authors">
                     {%- for author in paper.authors %}
-                    {%- if author.sail %}<u>{{ author.name }}</u>{% else %}{{ author.name }}{% endif %}{%- if not loop.last %}, {% endif %}
+                    {%- if author.sail %}<u>{{ author.name }}</u>{% else %}{{ author.name }}{% endif %}{%- if author.equal %}<span class="p-papers__eq" title="Equal contribution">*</span>{% endif %}{%- if not loop.last %}, {% endif %}
                     {%- endfor %}
                 </span>
             </li>

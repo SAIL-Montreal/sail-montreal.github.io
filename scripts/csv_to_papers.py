@@ -248,11 +248,12 @@ def main() -> None:
 
         authors = []
         for a in re.split(r"[,\r\n]+", cell(row, c_authors)):
-            a = a.strip().rstrip("*").strip()
+            a = a.strip()
             if not a or a.startswith("*"):
-                continue
+                continue  # legend line ("* denotes equal contribution")
+            equal = a.endswith("*")  # equal-contribution marker
             name, sail_ann = clean_name(a)
-            authors.append({"name": name, "sail_ann": sail_ann})
+            authors.append({"name": name, "sail_ann": sail_ann, "equal": equal})
         flags = [expand_flag(cell(row, c_author))]
         flags += [expand_flag(p) for p in cell(row, c_coauthor).split(",") if p.strip()]
         flags = [f for f in flags if f]
@@ -310,6 +311,8 @@ def main() -> None:
             if a["sail"] and an in CANONICAL_NAMES:
                 a["name"] = CANONICAL_NAMES[an]
             del a["sail_ann"]
+            if not a["equal"]:
+                del a["equal"]
         for f in p["flags"]:
             if not any(matches(norm(a["name"]), f) for a in p["authors"]):
                 unmatched.append(f"  flag '{f}' matched no author (paper: {p['title']})")

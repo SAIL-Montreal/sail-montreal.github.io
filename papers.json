@@ -1339,22 +1339,27 @@
     "authors": [
       {
         "name": "Marwa El Halabi",
+        "equal": true,
         "sail": true
       },
       {
         "name": "Ashkan Norouzi-Fard",
+        "equal": true,
         "sail": false
       },
       {
         "name": "Jakab Tardos",
+        "equal": true,
         "sail": false
       },
       {
         "name": "Jakub Tarnawski",
+        "equal": true,
         "sail": false
       },
       {
         "name": "Federico Fusco",
+        "equal": true,
         "sail": false
       }
     ],
@@ -1370,10 +1375,12 @@
     "authors": [
       {
         "name": "Yan Zhang",
+        "equal": true,
         "sail": true
       },
       {
         "name": "David W Zhang",
+        "equal": true,
         "sail": false
       },
       {
@@ -1401,10 +1408,12 @@
     "authors": [
       {
         "name": "Sékou-Oumar Kaba",
+        "equal": true,
         "sail": false
       },
       {
         "name": "Arnab Kumar Mondal",
+        "equal": true,
         "sail": false
       },
       {
@@ -1517,10 +1526,12 @@
       },
       {
         "name": "Pau Rodríguez",
+        "equal": true,
         "sail": false
       },
       {
         "name": "Saba Ahmadi",
+        "equal": true,
         "sail": false
       },
       {
@@ -1804,10 +1815,12 @@
     "authors": [
       {
         "name": "David W. Zhang",
+        "equal": true,
         "sail": false
       },
       {
         "name": "Yan Zhang",
+        "equal": true,
         "sail": true
       },
       {
