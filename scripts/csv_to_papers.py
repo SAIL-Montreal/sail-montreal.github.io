@@ -59,6 +59,21 @@ CANONICAL_NAMES = {
     "reza babanezhad harikandeh": "Reza Babanezhad",
     "sebastien lachapelle": "Sébastien Lachapelle",
 }
+# Temporary SAIL members (visiting researchers from SAIT Korea); they
+# appear in the paper list and are underlined like current members.
+FORMER_MEMBERS = [
+    "Kisoo Kwon",
+    "Jaewoo Lee",
+    "Kiho Cho",
+    "Eunhee Kang",
+    "Ji-Hye Kim",
+    "Jihye Kim",
+    "Doha Hwang",
+    "Hwidong Na",
+    "Namyeong Kwon",
+    "DoKwan Oh",
+    "Daehyun Ji",
+]
 
 AFFIL_RE = re.compile(r"^(.*?)\s*\((SAIL|Mila)\)\s*$", re.IGNORECASE)
 
@@ -185,7 +200,7 @@ def main() -> None:
         )
 
     # Pass 2: build the global SAIL-member set.
-    members: set[str] = set(FIRST_TO_FULL.values())
+    members: set[str] = set(FIRST_TO_FULL.values()) | {norm(m) for m in FORMER_MEMBERS}
     for p in papers:
         for f in p["flags"]:
             parts = f.split()

@@ -1,0 +1,168 @@
+{
+  "groups": [
+    {
+      "label": "VP",
+      "members": [
+        {
+          "name": "Simon Lacoste-Julien",
+          "title": "VP, Lab Director",
+          "image": "/people/simon-lacoste-julien.png",
+          "website": "http://www.iro.umontreal.ca/~slacoste/",
+          "scholar": "https://scholar.google.com/citations?user=oejm5IUAAAAJ"
+        }
+      ]
+    },
+    {
+      "label": "Lab Manager",
+      "members": [
+        {
+          "name": "Geneviève Bernard",
+          "title": "Office Manager",
+          "image": "/people/genevieve-bernard.png"
+        }
+      ]
+    },
+    {
+      "label": "Research Scientists",
+      "members": [
+        {
+          "name": "Damien Scieur",
+          "title": "Research Scientist",
+          "image": "/people/damien-scieur.png",
+          "website": "https://damienscieur.com/",
+          "scholar": "https://scholar.google.com/citations?user=hNscQzgAAAAJ"
+        },
+        {
+          "name": "Reza Babanezhad",
+          "title": "Research Scientist",
+          "image": "/people/reza-babanezhad.png",
+          "website": "https://r3za.github.io/",
+          "scholar": "https://scholar.google.com/citations?user=KLrwPsgAAAAJ"
+        },
+        {
+          "name": "Yash Goyal",
+          "title": "Research Scientist",
+          "image": "/people/yash-goyal.png",
+          "website": "https://yash-goyal.github.io/"
+        },
+        {
+          "name": "Marwa El Halabi",
+          "title": "Research Scientist",
+          "image": "/people/marwa-el-halabi.png",
+          "website": "https://sites.google.com/view/marwaelhalabi/home",
+          "scholar": "https://scholar.google.com/citations?user=Vd6RW7cAAAAJ"
+        },
+        {
+          "name": "Yan Zhang",
+          "title": "Research Scientist",
+          "image": "/people/yan-zhang.png",
+          "website": "https://www.cyanogenoid.com/",
+          "scholar": "https://scholar.google.com/citations?user=XtCqbfEAAAAJ"
+        },
+        {
+          "name": "Aristide Baratin",
+          "title": "Research Scientist",
+          "image": "/people/aristide-baratin.png",
+          "website": "https://www.arisbar.org/",
+          "scholar": "https://scholar.google.com/citations?user=ZK7OfxkAAAAJ"
+        },
+        {
+          "name": "Boris Knyazev",
+          "title": "Research Scientist",
+          "image": "/people/boris-knyazev.png",
+          "website": "https://bknyaz.github.io/",
+          "scholar": "https://scholar.google.com/citations?user=Dp9VFB0AAAAJ"
+        },
+        {
+          "name": "Alexia Jolicoeur-Martineau",
+          "title": "Research Scientist",
+          "image": "/people/alexia-jolicoeur-martineau.png",
+          "website": "https://ajolicoeur.wordpress.com/",
+          "scholar": "https://scholar.google.com/citations?user=0qytQ1oAAAAJ"
+        },
+        {
+          "name": "Sébastien Lachapelle",
+          "title": "Research Scientist",
+          "image": "/people/sebastien-lachapelle.jpg",
+          "website": "https://slachapelle.github.io/",
+          "scholar": "https://scholar.google.com/citations?user=uxHoJp8AAAAJ"
+        }
+      ]
+    },
+    {
+      "label": "Samsung Visitors",
+      "members": [
+        {
+          "name": "Kisoo Kwon",
+          "title": "Visiting Research Scientist",
+          "years": "2024–25",
+          "image": "/people/kisoo-kwon.jpg",
+          "scholar": "https://scholar.google.com/citations?user=FSsfLTMAAAAJ"
+        },
+        {
+          "name": "Jaewoo Lee",
+          "title": "Visiting Research Scientist",
+          "years": "2024–25",
+          "image": "/people/jaewoo-lee.jpg",
+          "scholar": "https://scholar.google.com/citations?user=9DtaiykAAAAJ"
+        },
+        {
+          "name": "Kiho Cho",
+          "title": "Visiting Research Scientist",
+          "years": "2023–24",
+          "image": "/people/kiho-cho.png",
+          "scholar": "https://scholar.google.com/citations?user=JIsPlpoAAAAJ"
+        },
+        {
+          "name": "Eunhee Kang",
+          "title": "Visiting Research Scientist",
+          "years": "2022–23",
+          "image": "/people/eunhee-kang.png",
+          "scholar": "https://scholar.google.com/citations?user=wBzlAKUAAAAJ"
+        },
+        {
+          "name": "Ji-Hye Kim",
+          "title": "Visiting Research Scientist",
+          "years": "2022",
+          "image": "/people/jihye-kim.png",
+          "scholar": "https://scholar.google.com/citations?user=USrf_BYAAAAJ"
+        },
+        {
+          "name": "Doha Hwang",
+          "title": "Visiting Research Scientist",
+          "years": "2021–22",
+          "image": "/people/doha-hwang.jpg",
+          "scholar": "https://scholar.google.com/citations?user=a6WcP30AAAAJ"
+        },
+        {
+          "name": "Hwidong Na",
+          "title": "Visiting Research Scientist",
+          "years": "2020",
+          "image": "/people/hwidong-na.png",
+          "website": "https://www.researchgate.net/profile/Hwidong_Na"
+        },
+        {
+          "name": "Namyeong Kwon",
+          "title": "Visiting Research Scientist",
+          "years": "2020",
+          "image": "/people/namyeong-kwon.png",
+          "scholar": "https://scholar.google.com/citations?user=zewIo9QAAAAJ"
+        },
+        {
+          "name": "DoKwan Oh",
+          "title": "Visiting Research Scientist",
+          "years": "2019–20",
+          "image": "/people/dokwan-oh.jpg",
+          "scholar": "https://scholar.google.com/citations?user=Xn89xssAAAAJ"
+        },
+        {
+          "name": "Daehyun Ji",
+          "title": "Visiting Research Scientist",
+          "years": "2019–20",
+          "image": "/people/daehyun-ji.jpg",
+          "scholar": "https://scholar.google.com/citations?user=WEZZefcAAAAJ"
+        }
+      ]
+    }
+  ]
+}

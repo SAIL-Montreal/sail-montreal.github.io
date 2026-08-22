@@ -3,16 +3,40 @@
 {% block extra_head -%}
 <style>
 .p-section h2 { margin-top: 1em; }
+.p-section h3 { margin-bottom: 0.8em; }
 .p-papers { margin-top: 1.5em; }
 .p-papers summary { cursor: pointer; font-weight: bold; }
 .p-papers ul { padding-left: 1.2em; }
 .p-papers li { margin-bottom: 1em; }
 .p-papers__meta { display: block; color: #666; }
 .p-papers__authors { display: block; }
+.p-about__photos { display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em; }
+.p-about__photos img { max-width: 100%; height: auto; }
+.p-people { margin-top: 2em; }
+.p-people__group { margin-top: 1.5em; }
+.p-people__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 1.5em 1em;
+}
+.p-person { text-align: center; }
+.p-person img {
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.p-person__name { font-weight: bold; margin-top: 0.5em; }
+.p-person__title { color: #666; font-size: 0.95em; }
+.p-person__links { font-size: 0.9em; }
+.p-person__links a { margin: 0 0.25em; }
 </style>
 {%- endblock extra_head %}
 
 {% block content -%}
+{% set papers = load_data(path="papers.json") %}
+{% set people = load_data(path="people.json") %}
 <section class="p-section">
     <h2>What is SAIL Montreal?</h2>
     <p>
@@ -25,8 +49,42 @@
         AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an
         open collaborative environment is encouraged.
     </p>
+    <p>
+        Current research themes are optimization and generalization in machine learning
+        (with applications to structured data such as natural language understanding or
+        computer vision), interpretability of deep models, causal modeling and
+        explainable AI, and neural network compression and graph neural networks.
+    </p>
+    <p>
+        Code:
+        <a href="https://github.com/SamsungSAILMontreal">GitHub</a> —
+        <a href="https://huggingface.co/SamsungSAILMontreal">Hugging Face</a>
+    </p>
+    <div class="p-about__photos">
+        <img src="/people/sail-lab-01.jpg" alt="SAIL Montreal lab" width="480">
+        <img src="/people/sail-lab-02.jpg" alt="SAIL Montreal lab" width="480">
+    </div>
 
-    {% set papers = load_data(path="papers.json") %}
+    <h2>People</h2>
+    {% for group in people.groups %}
+    <div class="p-people__group">
+        <h3>{{ group.label }}</h3>
+        <div class="p-people__grid">
+            {% for person in group.members %}
+            <div class="p-person">
+                <img src="{{ person.image }}" alt="{{ person.name }}" loading="lazy">
+                <div class="p-person__name">{{ person.name }}</div>
+                <div class="p-person__title">{{ person.title }}{% if person.years %} ({{ person.years }}){% endif %}</div>
+                <div class="p-person__links">
+                    {% if person.website %}<a href="{{ person.website }}" rel="me">Website</a>{% endif %}
+                    {% if person.scholar %}<a href="{{ person.scholar }}" rel="me">Scholar</a>{% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+
     <details class="p-papers">
         <summary>SAIL published papers ({{ papers | length }})</summary>
         <ul>
