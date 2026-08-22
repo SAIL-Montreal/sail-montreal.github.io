@@ -142,7 +142,7 @@
             </p>
         </header>
         <div class="c-article__summary">
-            {{ page.content | striptags | truncate(length=280, endpoint="…") }}
+            {{ page.summary | striptags | truncate(length=280, endpoint="…") }}
         </div>
         <a href="{{ page.permalink }}" class="c-article__btn p-list-article__btn">Read more...</a>
     </article>
