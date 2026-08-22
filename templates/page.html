@@ -73,3 +73,8 @@
 {%- endblock content %}
 {% block webring -%}
 {%- endblock webring %}
+{% block meta -%}
+<meta property="og:site_name" content="{{ config.title }}" />
+<meta property="og:url" content="{{ page.permalink }}" />
+<meta property="og:image" content="{{ get_url(path="og-image.png", trailing_slash=false) }}" />
+{%- endblock meta %}

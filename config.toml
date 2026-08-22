@@ -15,6 +15,10 @@ taxonomies = [
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+generate_feeds = true
+
+exclude_paginated_pages_in_sitemap = "all"
+
 default_language = "en"
 
 [markdown.highlighting]
