@@ -7,8 +7,8 @@
   "Towards Learned Optimization Free Lunch": "https://iclr.cc/virtual/2026/poster/10008009",
   "µLO: Compute-Efficient Meta-Generalization of Learned Optimizers": "https://iclr.cc/virtual/2026/poster/10008268",
   "Strongly Convex Sets in Riemannian Manifolds": "https://openreview.net/forum?id=4sDszSYKP6",
-  "(Almost) Free Modality Alignment of Foundation Models": "https://arxiv.org/abs/2507.10015",
-  "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics": "https://arxiv.org/abs/2506.08835",
+  "(Almost) Free Modality Alignment of Foundation Models": "https://aclanthology.org/2025.emnlp-main.1001/",
+  "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics": "https://aclanthology.org/2025.findings-emnlp.1141/",
   "Understanding Adam Requires Better Rotation Dependent Assumptions": "https://openreview.net/forum?id=KD4wgunbhO",
   "Manifold Metric: A Loss Landscape Approach for Predicting Model Performance": "https://arxiv.org/abs/2405.15895",
   "Nonparametric Partial Disentanglement via Mechanism Sparsity: Sparse Actions, Interventions and Sparse Temporal Dependencies": "https://jmlr.org/papers/v27/24-0771.html"
