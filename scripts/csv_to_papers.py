@@ -74,6 +74,16 @@ FORMER_MEMBERS = [
     "DoKwan Oh",
     "Daehyun Ji",
 ]
+# Standard display names for venues, keyed by normalized sheet value.
+VENUE_CANONICAL = {
+    "neurips 2022": "NeurIPS 2022",
+    "neurips 2023": "NeurIPS 2023",
+    "neurips 2024": "NeurIPS 2024",
+    "neurips 2025": "NeurIPS 2025",
+    "(tmlr)": "TMLR",
+    "(tmlr) dec 2022": "TMLR",
+    "foundation and trends \u00a9 in optimization": "Foundations and Trends in Optimization",
+}
 
 AFFIL_RE = re.compile(r"^(.*?)\s*\((SAIL|Mila)\)\s*$", re.IGNORECASE)
 
@@ -221,8 +231,10 @@ def main() -> None:
             if a["sail_ann"]:
                 members.add(norm(a["name"]))
 
-    # Pass 3: mark authors.
+    # Pass 3: mark authors and normalize venues.
     for p in papers:
+        if norm(p["venue"]) in VENUE_CANONICAL:
+            p["venue"] = VENUE_CANONICAL[norm(p["venue"])]
         for a in p["authors"]:
             an = norm(a["name"])
             a["sail"] = a["sail_ann"] or any(matches(an, m) for m in members)

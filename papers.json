@@ -311,7 +311,7 @@
   },
   {
     "title": "Understanding Adam Requires Better Rotation Dependent Assumptions",
-    "venue": "Neurips 2025",
+    "venue": "NeurIPS 2025",
     "notification": "",
     "authors": [
       {
@@ -786,7 +786,7 @@
   },
   {
     "title": "Iterative Methods via Locally Evolving Set Process",
-    "venue": "Neurips 2024",
+    "venue": "NeurIPS 2024",
     "notification": "",
     "authors": [
       {
@@ -820,7 +820,7 @@
   },
   {
     "title": "Bias in Motion: Theoretical Insights into the Dynamics of Bias and Robustness in SGD Training",
-    "venue": "Neurips 2024",
+    "venue": "NeurIPS 2024",
     "notification": "",
     "authors": [
       {
@@ -1012,7 +1012,7 @@
   },
   {
     "title": "PopulAtion Parameter Averaging (PAPA)",
-    "venue": "(TMLR)",
+    "venue": "TMLR",
     "notification": "Published May 4th 2024",
     "authors": [
       {
@@ -1255,7 +1255,7 @@
   },
   {
     "title": "Decision-Aware Actor-Critic with Function Approximation and Theoretical Guarantees",
-    "venue": "Neurips 2023",
+    "venue": "NeurIPS 2023",
     "notification": "",
     "authors": [
       {
@@ -1282,7 +1282,7 @@
   },
   {
     "title": "Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation",
-    "venue": "Neurips 2023",
+    "venue": "NeurIPS 2023",
     "notification": "",
     "authors": [
       {
@@ -1529,7 +1529,7 @@
   },
   {
     "title": "Using Representation Expressiveness and Learnability\nto Evaluate Self-Supervised Learning Methods",
-    "venue": "(TMLR)",
+    "venue": "TMLR",
     "notification": "Nov 23",
     "authors": [
       {
@@ -1598,7 +1598,7 @@
   },
   {
     "title": "Lazy vs hasty: linearization in deep networks impacts learning schedule based on example difficulty",
-    "venue": "(TMLR) Dec 2022",
+    "venue": "TMLR",
     "notification": "",
     "authors": [
       {
@@ -1651,7 +1651,7 @@
   },
   {
     "title": "The Curse of Unrolling: Rate of Differentiating Through Optimization",
-    "venue": "Neurips 2022",
+    "venue": "NeurIPS 2022",
     "notification": "",
     "authors": [
       {
@@ -1674,7 +1674,7 @@
   },
   {
     "title": "Data-Efficient Structured Pruning via Submodular Optimization",
-    "venue": "Neurips 2022",
+    "venue": "NeurIPS 2022",
     "notification": "",
     "authors": [
       {
@@ -1697,7 +1697,7 @@
   },
   {
     "title": "Hyper-Representations as Generative Models:\nSampling Unseen Neural NetworkWeights",
-    "venue": "Neurips 2022",
+    "venue": "NeurIPS 2022",
     "notification": "",
     "authors": [
       {
@@ -1724,7 +1724,7 @@
   },
   {
     "title": "MCVD: Masked Conditional Video Diffusion for Prediction",
-    "venue": "Neurips 2022",
+    "venue": "NeurIPS 2022",
     "notification": "",
     "authors": [
       {
@@ -1747,7 +1747,7 @@
   },
   {
     "title": "Model Zoos: A Dataset of Diverse Populations of\nNeural Network Models",
-    "venue": "Neurips 2022",
+    "venue": "NeurIPS 2022",
     "notification": "",
     "authors": [
       {
@@ -2191,7 +2191,7 @@
   },
   {
     "title": "Acceleration Methods",
-    "venue": "Foundation and Trends © in Optimization",
+    "venue": "Foundations and Trends in Optimization",
     "notification": "Published on 15 Dec 2021",
     "authors": [
       {
