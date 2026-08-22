@@ -66,7 +66,7 @@
             {%- else -%}
             {{ paper.title }}
             {%- endif %}
-            <span class="p-papers__meta">{{ paper.venue }}{% if paper.notification %} — {{ paper.notification }}{% endif %}</span>
+            <span class="p-papers__meta">{{ paper.venue }}{% if paper.published %} — {{ paper.published }}{% endif %}</span>
             <span class="p-papers__authors">
                 {%- for author in paper.authors %}
                 {%- if author.sail %}<u>{{ author.name }}</u>{% else %}{{ author.name }}{% endif %}{%- if not loop.last %}, {% endif %}
@@ -89,7 +89,7 @@
                 {%- else -%}
                 {{ paper.title }}
                 {%- endif %}
-                <span class="p-papers__meta">{{ paper.venue }}{% if paper.notification %} — {{ paper.notification }}{% endif %}</span>
+                <span class="p-papers__meta">{{ paper.venue }}{% if paper.published %} — {{ paper.published }}{% endif %}</span>
                 <span class="p-papers__authors">
                     {%- for author in paper.authors %}
                     {%- if author.sail %}<u>{{ author.name }}</u>{% else %}{{ author.name }}{% endif %}{%- if not loop.last %}, {% endif %}
@@ -124,5 +124,16 @@
         <img src="/people/sail-lab-01.jpg" alt="SAIL Montreal lab" width="480">
         <img src="/people/sail-lab-02.jpg" alt="SAIL Montreal lab" width="480">
     </div>
+
+    <h2>Blog</h2>
+    {% for page in paginator.pages %}
+    <article class="c-article p-list-article">
+        {{ <post_title page /> }}
+        <div class="c-article__summary">
+            {{ page.content | striptags | truncate(length=280, endpoint="…") }}
+        </div>
+        <a href="{{ page.permalink }}" class="c-article__btn p-list-article__btn">Read more...</a>
+    </article>
+    {% endfor %}
 </section>
 {%- endblock content %}

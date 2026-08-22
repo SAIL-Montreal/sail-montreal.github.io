@@ -1,0 +1,15 @@
+{% extends "pickles/templates/index.html" %}
+
+{% block title -%}
+<title>Page not found | {{ config.title }}</title>
+{%- endblock title %}
+
+{% block content -%}
+<section class="p-section">
+    <h2>Page not found</h2>
+    <p>
+        Sorry, that page doesn't exist.
+        <a href="/">Back to the homepage</a>.
+    </p>
+</section>
+{%- endblock content %}

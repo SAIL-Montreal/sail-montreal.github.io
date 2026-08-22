@@ -2,7 +2,6 @@
   {
     "title": "On the Sample Efficiency of Inverse Dynamics Models for Semi-Supervised Imitation Learning",
     "venue": "ICML 2026",
-    "notification": "",
     "authors": [
       {
         "name": "Sacha Morin",
@@ -23,12 +22,12 @@
     ],
     "links": [
       "https://icml.cc/virtual/2026/poster/66034"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "From Lyapunov Analysis to Algorithm Design in two-sided PL Minimax Optimization",
     "venue": "ICML 2026",
-    "notification": "",
     "authors": [
       {
         "name": "Mansi Rankawat",
@@ -49,12 +48,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=UIyXPhhxlf"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "On the Convergence of Steepest Descent and Adaptive Gradient Methods under Non-Uniform Smoothness",
     "venue": "ICML 2026",
-    "notification": "",
     "authors": [
       {
         "name": "Sharan Vaswani",
@@ -71,12 +70,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=vwTTp11PTD"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Towards Parameter-Free Temporal Difference Learning",
     "venue": "ICML 2026",
-    "notification": "",
     "authors": [
       {
         "name": "Yunxiang LI",
@@ -97,12 +96,12 @@
     ],
     "links": [
       "https://icml.cc/virtual/2026/poster/61477"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Towards Learned Optimization Free Lunch",
     "venue": "ICLR 2026",
-    "notification": "",
     "authors": [
       {
         "name": "Abhinav Moudgil",
@@ -119,12 +118,12 @@
     ],
     "links": [
       "https://iclr.cc/virtual/2026/poster/10008009"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "µLO: Compute-Efficient Meta-Generalization of Learned Optimizers",
     "venue": "ICLR 2026",
-    "notification": "",
     "authors": [
       {
         "name": "Benjamin Thérien",
@@ -153,12 +152,12 @@
     ],
     "links": [
       "https://iclr.cc/virtual/2026/poster/10008268"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Strongly Convex Sets in Riemannian Manifolds",
     "venue": "ICLR 2026",
-    "notification": "",
     "authors": [
       {
         "name": "Damien Scieur",
@@ -183,12 +182,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=4sDszSYKP6"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Nonparametric Partial Disentanglement via Mechanism Sparsity: Sparse Actions, Interventions and Sparse Temporal Dependencies",
     "venue": "JMLR",
-    "notification": "published May 2026",
     "authors": [
       {
         "name": "Sébastien Lachapelle",
@@ -221,12 +220,12 @@
     ],
     "links": [
       "https://jmlr.org/papers/v27/24-0771.html"
-    ]
+    ],
+    "published": "May 2026"
   },
   {
     "title": "Identifiability of potentially degenerate Gaussian Mixture Models with piecewise affine mixing",
     "venue": "AISTATS 2026",
-    "notification": "",
     "authors": [
       {
         "name": "Danru Xu",
@@ -243,12 +242,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=EXUX2g9XVu"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Any-Property-Conditional Molecule Generation with Self-Criticism using Spanning Trees",
     "venue": "TMLR",
-    "notification": "published Dec 25",
     "authors": [
       {
         "name": "Alexia Jolicoeur-Martineau",
@@ -273,12 +272,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=QGZd5Bfb1L"
-    ]
+    ],
+    "published": "Dec 2025"
   },
   {
     "title": "(Almost) Free Modality Alignment of Foundation Models",
     "venue": "EMNLP 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Jaisidh Singh",
@@ -299,12 +298,12 @@
     ],
     "links": [
       "https://aclanthology.org/2025.emnlp-main.1001/"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics",
     "venue": "EMNLP 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Shravan Nayak",
@@ -345,12 +344,12 @@
     ],
     "links": [
       "https://aclanthology.org/2025.findings-emnlp.1141/"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Learning Versatile Optimizers on a Compute Diet",
     "venue": "TMLR",
-    "notification": "Nov 24 - published June 25",
     "authors": [
       {
         "name": "Abhinav Moudgil",
@@ -371,12 +370,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=SLqJbt4emY"
-    ]
+    ],
+    "published": "Jun 2025"
   },
   {
     "title": "Ctrl-V: Higher Fidelity Autonomous Vehicle Video Generation with Bounding-Box Controlled Object Motion",
     "venue": "TMLR",
-    "notification": "Published Mai 2025",
     "authors": [
       {
         "name": "Ge Ya Luo",
@@ -401,12 +400,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=BMGikHBjlx"
-    ]
+    ],
+    "published": "May 2025"
   },
   {
     "title": "Accelerating Training with Neuron Interaction and Nowcasting Networks",
     "venue": "ICLR 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Boris Knyazev",
@@ -431,12 +430,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=cUFIil6hEG"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Beyond FVD: Enhanced Evaluation Metrics for Video Generation Quality",
     "venue": "ICLR 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Ge Ya Luo",
@@ -461,12 +460,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=cC3LxGZasH"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Interaction Asymmetry: A General Principle for Learning Composable Abstractions",
     "venue": "ICLR 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Jack Brady",
@@ -495,12 +494,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=cCl10IU836"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Improving Equivariant Networks with Probabilistic Symmetry Breaking",
     "venue": "ICLR 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Hannah Lawrence",
@@ -521,12 +520,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=1VlRaXNMWO"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "(Accelerated) Noise-adaptive Stochastic Heavy-Ball Momentum",
     "venue": "TMLR",
-    "notification": "published April 25",
     "authors": [
       {
         "name": "Anh Dang",
@@ -543,12 +542,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=Okxp1W8If0"
-    ]
+    ],
+    "published": "Apr 2025"
   },
   {
     "title": "All or None: Identifiable Linear Properties of Next-Token Predictors in Language Modeling",
     "venue": "AISTATS 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Emanuele Marconato",
@@ -570,12 +569,12 @@
     "links": [
       "https://openreview.net/forum?id=deBU7Dbcgz",
       "https://arxiv.org/html/2410.23501v1"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Fast Convergence of Softmax Policy Mirror Ascent for Bandits & Tabular MDPs",
     "venue": "AISTATS 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Reza Asad",
@@ -600,12 +599,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=f5OjNMXIik&referrer=%5Bthe%20profile%20of%20Reza%20Babanezhad%20Harikandeh%5D(%2Fprofile%3Fid%3D~Reza_Babanezhad_Harikandeh1)"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Meta-learning Optimizers for Communication-Efficient Learning",
     "venue": "TMLR",
-    "notification": "published March 2025",
     "authors": [
       {
         "name": "Charles-Étienne Joseph",
@@ -630,12 +629,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=uRbf9ANAns"
-    ]
+    ],
+    "published": "Mar 2025"
   },
   {
     "title": "Maxwell's Demon at Work: Efficient Pruning by Leveraging Saturation of Neurons",
     "venue": "TMLR",
-    "notification": "Nov 24 - published Fev 25",
     "authors": [
       {
         "name": "Simon Dufort-Labbé",
@@ -668,12 +667,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=nmBleuFzaN"
-    ]
+    ],
+    "published": "Feb 2025"
   },
   {
     "title": "Understanding Adam Requires Better Rotation Dependent Assumptions",
     "venue": "NeurIPS 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Tianyue H. Zhang",
@@ -710,12 +709,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=KD4wgunbhO"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Manifold Metric: A Loss Landscape Approach for Predicting Model Performance",
     "venue": "CoLLAs 2025",
-    "notification": "",
     "authors": [
       {
         "name": "Pranshu Malviya",
@@ -740,12 +739,12 @@
     ],
     "links": [
       "https://arxiv.org/abs/2405.15895"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Improved Generalization of Weight Space Networks via Augmentations",
     "venue": "ICML 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Aviv Shamsian",
@@ -778,12 +777,12 @@
     ],
     "links": [
       "https://proceedings.mlr.press/v235/shamsian24a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Unsupervised Concept Discovery Mitigates Spurious Correlations",
     "venue": "ICML 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Md Rifat Arefin",
@@ -816,12 +815,12 @@
     ],
     "links": [
       "https://proceedings.mlr.press/v235/arefin24a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "A Sparsity Principle for Partially Observable Causal Representation",
     "venue": "ICML 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Danru Xu",
@@ -854,12 +853,12 @@
     ],
     "links": [
       "https://proceedings.mlr.press/v235/xu24ac.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Lookbehind-Sam: k steps back, 1 step forward",
     "venue": "ICML 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Goncalo Mordido",
@@ -880,12 +879,12 @@
     ],
     "links": [
       "https://proceedings.mlr.press/v235/mordido24a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "LayerMerge: Neural Network Depth Compression through Layer Pruning and Merging",
     "venue": "ICML 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Jinuk Kim",
@@ -906,12 +905,12 @@
     ],
     "links": [
       "https://proceedings.mlr.press/v235/kim24c.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Promoting Exploration in Memory-Augmented Adam using Critical Momenta",
     "venue": "TMLR",
-    "notification": "Published June 2024",
     "authors": [
       {
         "name": "Pranshu Malviya",
@@ -948,12 +947,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=sHSkJqyQgW"
-    ]
+    ],
+    "published": "Jun 2024"
   },
   {
     "title": "PopulAtion Parameter Averaging (PAPA)",
     "venue": "TMLR",
-    "notification": "Published May 4th 2024",
     "authors": [
       {
         "name": "Alexia Jolicoeur-Martineau",
@@ -978,12 +977,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=cPDVjsOytS"
-    ]
+    ],
+    "published": "May 2024"
   },
   {
     "title": "Graph Neural Networks for Learning Equivariant Representations of Neural Networks",
     "venue": "ICLR 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Miltiadis Kofinas",
@@ -1021,12 +1020,12 @@
     "links": [
       "https://openreview.net/forum?id=oO6FsMyDBt",
       "https://openreview.net/forum?id=oO6FsMyDBt"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "How connectivity structure shapes rich and lazy learning in neural circuits",
     "venue": "ICLR 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Yuhan Helena Liu",
@@ -1056,12 +1055,12 @@
     "links": [
       "https://arxiv.org/abs/2310.08513",
       "https://openreview.net/forum?id=slSmYGc8ee"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Object centric architectures enable efficient causal representation learning",
     "venue": "ICLR 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Amin Mansouri",
@@ -1083,12 +1082,12 @@
     "links": [
       "https://arxiv.org/abs/2310.19054",
       "https://openreview.net/forum?id=r9FsiXZxZt"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Multi-View Causal Representation Learning with Partial Observability",
     "venue": "ICLR 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Dingling Yao",
@@ -1126,12 +1125,12 @@
     "links": [
       "https://arxiv.org/abs/2311.04056",
       "https://openreview.net/forum?id=OGtnhKQJms"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Generating and Imputing Tabular Data via Diffusion and Flow-based Gradient-Boosted Trees",
     "venue": "AISTATS 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Alexia Jolicoeur-Martineau",
@@ -1149,12 +1148,12 @@
     "links": [
       "https://arxiv.org/abs/2309.09968",
       "https://proceedings.mlr.press/v238/jolicoeur-martineau24a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Fairness in Submodular Maximization over a Matroid Constraint",
     "venue": "AISTATS 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Marwa El Halabi",
@@ -1176,12 +1175,12 @@
     "links": [
       "https://arxiv.org/abs/2305.15118",
       "https://proceedings.mlr.press/v238/el-halabi24a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Adaptive Quasi-Newton and Anderson Acceleration Framework with Explicit Global (Accelerated) Convergence Rates",
     "venue": "AISTATS 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Damien Scieur",
@@ -1191,12 +1190,12 @@
     "links": [
       "https://arxiv.org/abs/2305.19179",
       "https://proceedings.mlr.press/v238/scieur24a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Iterative Methods via Locally Evolving Set Process",
     "venue": "NeurIPS 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Baojian Zhou",
@@ -1225,12 +1224,12 @@
     ],
     "links": [
       "https://papers.nips.cc/paper_files/paper/2024/hash/fffe5a7804c40465ef2432386850c2c7-Abstract-Conference.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Bias in Motion: Theoretical Insights into the Dynamics of Bias and Robustness in SGD Training",
     "venue": "NeurIPS 2024",
-    "notification": "",
     "authors": [
       {
         "name": "Anchit Jain",
@@ -1251,12 +1250,12 @@
     ],
     "links": [
       "https://papers.nips.cc/paper_files/paper/2024/hash/2ba538ff6a168e937d07e360045c0d6b-Abstract-Conference.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Using Representation Expressiveness and Learnability\nto Evaluate Self-Supervised Learning Methods",
     "venue": "TMLR",
-    "notification": "Nov 23",
     "authors": [
       {
         "name": "Yuchen Liu",
@@ -1285,12 +1284,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=BxdrpnRHNh"
-    ]
+    ],
+    "published": "Nov 2023"
   },
   {
     "title": "Can We Scale Transformers to Predict Parameters of Diverse ImageNet Models?",
     "venue": "ICML 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Boris Knyazev",
@@ -1308,12 +1307,12 @@
     "links": [
       "https://proceedings.mlr.press/v202/knyazev23a.html",
       "https://openreview.net/forum?id=7UXf8dAz5T"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Difference of submodular minimization via DC programming",
     "venue": "ICML 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Marwa El Halabi",
@@ -1331,12 +1330,12 @@
     "links": [
       "https://proceedings.mlr.press/v202/el-halabi23b.html",
       "https://openreview.net/forum?id=e1lKKjkNMj&referrer=%5bthe%20profile%20of%20Marwa%20El%20Halabi%5d(/profile?id=~Marwa_El_Halabi2)"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Fairness in Streaming Submodular Maximization over a Matroid Constraint",
     "venue": "ICML 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Marwa El Halabi",
@@ -1362,12 +1361,12 @@
     "links": [
       "https://proceedings.mlr.press/v202/el-halabi23a.html",
       "https://openreview.net/forum?id=KrsaROSs8b&referrer=%5bthe%20profile%20of%20Marwa%20El%20Halabi%5d(/profile?id=~Marwa_El_Halabi2)"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Unlocking Slot Attention by Changing Optimal Transport Costs",
     "venue": "ICML 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Yan Zhang",
@@ -1393,12 +1392,12 @@
     "links": [
       "https://proceedings.mlr.press/v202/zhang23ba.html",
       "https://openreview.net/forum?id=FMomWFNh5d"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Equivariance with Learned Canonicalization Functions",
     "venue": "ICML 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Sékou-Oumar Kaba",
@@ -1424,12 +1423,12 @@
     "links": [
       "https://proceedings.mlr.press/v202/kaba23a.html",
       "https://openreview.net/forum?id=Jng8ejqTZi"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "CrossSplit: Mitigating Label Noise Memorization through Data Splitting",
     "venue": "ICML 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Jihye Kim",
@@ -1451,12 +1450,12 @@
     "links": [
       "https://proceedings.mlr.press/v202/kim23a.html",
       "https://openreview.net/forum?id=yeF3FMIIpm"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Fast Online Node Labelling with Local and Global Consistency",
     "venue": "ICML 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Baojian Zhou",
@@ -1474,12 +1473,12 @@
     "links": [
       "https://proceedings.mlr.press/v202/zhou23k.html",
       "https://openreview.net/forum?id=p6T3omuNZK"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Target-based Surrogates for Stochastic Optimization",
     "venue": "ICML 2023",
-    "notification": "",
     "authors": [
       {
         "name": "J. Wilder Lavington",
@@ -1505,12 +1504,12 @@
     "links": [
       "https://proceedings.mlr.press/v202/lavington23a.html",
       "https://openreview.net/forum?id=QExVqoGknN"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "MAPL: Parameter-Efficient Adaptation of Unimodal Pre-Trained Models for Vision-Language Few-Shot Learning",
     "venue": "EACL 2023",
-    "notification": "20 Jan",
     "authors": [
       {
         "name": "Oscar Manas",
@@ -1540,12 +1539,12 @@
     "links": [
       "https://arxiv.org/abs/2210.07179",
       "https://aclanthology.org/2023.eacl-main.185/"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Decision-Aware Actor-Critic with Function Approximation and Theoretical Guarantees",
     "venue": "NeurIPS 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Sharan Vaswani",
@@ -1567,12 +1566,12 @@
     "links": [
       "https://papers.nips.cc/paper_files/paper/2023/hash/d18d208fa9c333483e5724ade7beff0f-Abstract-Conference.html",
       "https://arxiv.org/abs/2305.15249"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation",
     "venue": "NeurIPS 2023",
-    "notification": "",
     "authors": [
       {
         "name": "Sébastien Lachapelle",
@@ -1594,12 +1593,12 @@
     "links": [
       "https://papers.nips.cc/paper_files/paper/2023/hash/4ef594af0d9a519db8fb292452c461fa-Abstract-Conference.html",
       "https://arxiv.org/abs/2307.02598"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Lazy vs hasty: linearization in deep networks impacts learning schedule based on example difficulty",
     "venue": "TMLR",
-    "notification": "",
     "authors": [
       {
         "name": "Thomas George",
@@ -1616,12 +1615,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=lukVf4VrfP&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)"
-    ]
+    ],
+    "published": "Dec 2022"
   },
   {
     "title": "SVRG meets AdaGrad: Painless Variance Reduction",
     "venue": "Machine Learning",
-    "notification": "published 10 nov 2022",
     "authors": [
       {
         "name": "Benjamin Dubois-Taine",
@@ -1647,12 +1646,12 @@
     "links": [
       "https://link.springer.com/article/10.1007/s10994-022-06265-x",
       "https://arxiv.org/abs/2102.09645"
-    ]
+    ],
+    "published": "Nov 2022"
   },
   {
     "title": "Towards Painless Policy Optimization for Constrained MDPs",
     "venue": "UAI 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Arushi Jain",
@@ -1677,12 +1676,12 @@
     ],
     "links": [
       "https://proceedings.mlr.press/v180/jain22a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Only tails matter: Average-Case Universality and Robustness in the Convex Regime",
     "venue": "ICML 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Leonardo Cunha",
@@ -1708,12 +1707,12 @@
     "links": [
       "https://proceedings.mlr.press/v162/cunha22a.html",
       "https://openreview.net/pdf?id=VKtGrkUvCR"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Towards Noise-adaptive, Problem-adaptive (Accelerated) SGD",
     "venue": "ICML 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Sharan Vaswani",
@@ -1730,12 +1729,12 @@
     ],
     "links": [
       "https://proceedings.mlr.press/v162/vaswani22a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Image Retrieval from Contextual Descriptions",
     "venue": "ACL 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Benno Krojer",
@@ -1765,12 +1764,12 @@
     "links": [
       "https://aclanthology.org/2022.acl-long.241/",
       "https://arxiv.org/abs/2203.15867"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "On Evaluation Metrics for Graph Generative Models",
     "venue": "ICLR 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Rylee Thompson",
@@ -1796,12 +1795,12 @@
     "links": [
       "https://openreview.net/forum?id=EnwCZixjSh",
       "https://openreview.net/pdf?id=EnwCZixjSh"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation",
     "venue": "ICLR 2022",
-    "notification": "",
     "authors": [
       {
         "name": "David W. Zhang",
@@ -1827,12 +1826,12 @@
     "links": [
       "https://openreview.net/forum?id=5K7RRqZEjoS",
       "https://openreview.net/pdf?id=5K7RRqZEjoS"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Super-Acceleration with Cyclical Step-sizes",
     "venue": "AISTATS 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Baptiste Goujaud",
@@ -1858,12 +1857,12 @@
     "links": [
       "https://proceedings.mlr.press/v151/goujaud22a.html",
       "https://arxiv.org/abs/2106.09687"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Nonlinear acceleration of momentum and primal-dual algorithms",
     "venue": "Mathematical Programming",
-    "notification": "published on 9 Fev 2022",
     "authors": [
       {
         "name": "Raghu Bollapragada",
@@ -1881,12 +1880,12 @@
     "links": [
       "https://link.springer.com/article/10.1007/s10107-022-01775-x",
       "https://arxiv.org/abs/1810.04539"
-    ]
+    ],
+    "published": "Feb 2022"
   },
   {
     "title": "The Curse of Unrolling: Rate of Differentiating Through Optimization",
     "venue": "NeurIPS 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Damien Scieur",
@@ -1904,12 +1903,12 @@
     "links": [
       "https://papers.nips.cc/paper_files/paper/2022/hash/6d53193a098b982229340a7c3eb0ecbf-Abstract-Conference.html",
       "https://arxiv.org/abs/2209.13271"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Data-Efficient Structured Pruning via Submodular Optimization",
     "venue": "NeurIPS 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Marwa El Halabi",
@@ -1927,12 +1926,12 @@
     "links": [
       "https://papers.nips.cc/paper_files/paper/2022/hash/ed5854c456e136afa3faa5e41b1f3509-Abstract-Conference.html",
       "https://arxiv.org/pdf/2203.04940.pdf"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Hyper-Representations as Generative Models:\nSampling Unseen Neural NetworkWeights",
     "venue": "NeurIPS 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Konstantin Schürholt",
@@ -1954,12 +1953,12 @@
     "links": [
       "https://papers.nips.cc/paper_files/paper/2022/hash/b2c4b7d34b3d96b9dc12f7bce424b7ae-Abstract-Conference.html",
       "https://arxiv.org/abs/2209.14733"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "MCVD: Masked Conditional Video Diffusion for Prediction",
     "venue": "NeurIPS 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Vikram Voleti",
@@ -1977,12 +1976,12 @@
     "links": [
       "https://papers.nips.cc/paper_files/paper/2022/hash/944618542d80a63bbec16dfbd2bd689a-Abstract-Conference.html",
       "https://arxiv.org/abs/2205.09853"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Model Zoos: A Dataset of Diverse Populations of\nNeural Network Models",
     "venue": "NeurIPS 2022",
-    "notification": "",
     "authors": [
       {
         "name": "Konstantin Schürholt",
@@ -2008,12 +2007,12 @@
     "links": [
       "https://papers.nips.cc/paper_files/paper/2022/hash/f94d5edb5c01715d879693ddbfdc1b98-Abstract-Datasets_and_Benchmarks.html",
       "https://arxiv.org/abs/2209.14765"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Acceleration Methods",
     "venue": "Foundations and Trends in Optimization",
-    "notification": "Published on 15 Dec 2021",
     "authors": [
       {
         "name": "Alexandre d'Apresmont",
@@ -2031,12 +2030,12 @@
     "links": [
       "https://www.nowpublishers.com/article/Details/OPT-036",
       "https://arxiv.org/abs/2101.09545"
-    ]
+    ],
+    "published": "Dec 2021"
   },
   {
     "title": "Infinite-Dimensional Optimization for Zero-Sum Games via Variational Transport",
     "venue": "ICML 2021",
-    "notification": "",
     "authors": [
       {
         "name": "· Lewis Liu",
@@ -2061,12 +2060,12 @@
     ],
     "links": [
       "http://proceedings.mlr.press/v139/liu21ac.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Connecting Sphere Manifolds Hierarchically for Regularization",
     "venue": "ICML 2021",
-    "notification": "",
     "authors": [
       {
         "name": "Damien Scieur",
@@ -2080,12 +2079,12 @@
     "links": [
       "https://proceedings.mlr.press/v139/scieur21a.html",
       "https://arxiv.org/abs/2106.13549"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Affine Invariant Analysis of Frank-Wolfe on Strongly Convex Sets",
     "venue": "ICML 2021",
-    "notification": "",
     "authors": [
       {
         "name": "Thomas Kerdreux",
@@ -2107,12 +2106,12 @@
     "links": [
       "https://proceedings.mlr.press/v139/kerdreux21a.html",
       "https://arxiv.org/abs/2011.03351"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Repurposing Pretrained Models for Robust Out-of-domain Few-Shot Learning",
     "venue": "ICLR 2021",
-    "notification": "",
     "authors": [
       {
         "name": "Namyeong Kwon",
@@ -2133,12 +2132,12 @@
     ],
     "links": [
       "https://openreview.net/forum?id=qkLMTphG5-h"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Average-case Acceleration for Bilinear Games and Normal Matrices",
     "venue": "ICLR 2021",
-    "notification": "",
     "authors": [
       {
         "name": "Carles Domingo-Enrich",
@@ -2156,12 +2155,12 @@
     "links": [
       "https://openreview.net/forum?id=H0syOoy3Ash",
       "https://arxiv.org/abs/2010.02076"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "An Analysis of the Adaptation Speed of Causal Models",
     "venue": "AISTATS 2021",
-    "notification": "",
     "authors": [
       {
         "name": "Remi Le Priol",
@@ -2183,12 +2182,12 @@
     "links": [
       "https://proceedings.mlr.press/v130/le-priol21a.html",
       "https://arxiv.org/abs/2005.09136"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Generalization of Quasi-Newton Methods: Application to Robust Symmetric Multisecant Updates",
     "venue": "AISTATS 2021",
-    "notification": "",
     "authors": [
       {
         "name": "Damien Scieur",
@@ -2210,12 +2209,12 @@
     "links": [
       "https://proceedings.mlr.press/v130/scieur21a.html",
       "https://arxiv.org/abs/2011.03358; http://proceedings.mlr.press/v130/scieur21a.html"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Extra-gradient with player sampling for provable fast convergence in n-player games",
     "venue": "ICML 2020",
-    "notification": "",
     "authors": [
       {
         "name": "Samy Jelassi",
@@ -2241,12 +2240,12 @@
     "links": [
       "https://proceedings.mlr.press/v119/jelassi20a.html",
       "https://arxiv.org/pdf/1905.12363.pdf"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Universal Average-Case Optimality of Polyak Momentum",
     "venue": "ICML 2020",
-    "notification": "",
     "authors": [
       {
         "name": "Damien Scieur",
@@ -2260,12 +2259,12 @@
     "links": [
       "https://proceedings.mlr.press/v119/scieur20a.html",
       "https://arxiv.org/pdf/2002.04664.pdf"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Average-case Acceleration Through Spectral Density Estimation",
     "venue": "ICML 2020",
-    "notification": "",
     "authors": [
       {
         "name": "Fabian Pedregosa",
@@ -2279,12 +2278,12 @@
     "links": [
       "https://proceedings.mlr.press/v119/pedregosa20a.html",
       "https://arxiv.org/pdf/2002.04756.pdf"
-    ]
+    ],
+    "published": null
   },
   {
     "title": "Accelerating Smooth Games by Manipulating Spectral Shapes",
     "venue": "AISTATS 2020",
-    "notification": "",
     "authors": [
       {
         "name": "Waïss Azizian",
@@ -2310,6 +2309,7 @@
     "links": [
       "https://proceedings.mlr.press/v108/azizian20a.html",
       "https://arxiv.org/abs/2001.00602"
-    ]
+    ],
+    "published": null
   }
 ]

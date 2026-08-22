@@ -155,6 +155,8 @@ MONTH_NAMES = {
     "september": 9, "sept": 9, "sep": 9, "october": 10, "oct": 10,
     "november": 11, "nov": 11, "december": 12, "dec": 12,
 }
+MONTH_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+              "Aug", "Sep", "Oct", "Nov", "Dec"]
 _MONTH_ALT = "|".join(sorted(MONTH_NAMES, key=len, reverse=True))
 MONTH_RE = re.compile(rf"({_MONTH_ALT})\.?\s+(\d{{2,4}})\b")
 MONTH_WORD_RE = re.compile(rf"\b({_MONTH_ALT})\b")
@@ -305,6 +307,17 @@ def main() -> None:
         key=lambda p: publication_date(p["venue"], p["notification"], p["title"]),
         reverse=True,
     )
+
+    # Replace the raw sheet notification with a clean display date.
+    for p in papers:
+        year, month = publication_date(p["venue"], p["notification"], p["title"])
+        if re.search(r"\d{4}\s*$", p["venue"].strip()):
+            p["published"] = None  # year already visible in the venue
+        elif year and month:
+            p["published"] = f"{MONTH_ABBR[month - 1]} {year}"
+        else:
+            p["published"] = str(year) if year else None
+        del p["notification"]
     out_path.write_text(
         json.dumps(papers, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
