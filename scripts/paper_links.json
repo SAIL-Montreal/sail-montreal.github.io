@@ -1,15 +1,44 @@
 {
-  "On the Sample Efficiency of Inverse Dynamics Models for Semi-Supervised Imitation Learning": "https://icml.cc/virtual/2026/poster/66034",
-  "From Lyapunov Analysis to Algorithm Design in two-sided PL Minimax Optimization": "https://openreview.net/forum?id=UIyXPhhxlf",
-  "On the Convergence of Steepest Descent and Adaptive Gradient Methods under Non-Uniform Smoothness": "https://openreview.net/forum?id=vwTTp11PTD",
-  "Towards Parameter-Free Temporal Difference Learning": "https://icml.cc/virtual/2026/poster/61477",
-  "Identifiability of potentially degenerate Gaussian Mixture Models with piecewise affine mixing": "https://openreview.net/forum?id=EXUX2g9XVu",
-  "Towards Learned Optimization Free Lunch": "https://iclr.cc/virtual/2026/poster/10008009",
-  "µLO: Compute-Efficient Meta-Generalization of Learned Optimizers": "https://iclr.cc/virtual/2026/poster/10008268",
-  "Strongly Convex Sets in Riemannian Manifolds": "https://openreview.net/forum?id=4sDszSYKP6",
-  "(Almost) Free Modality Alignment of Foundation Models": "https://aclanthology.org/2025.emnlp-main.1001/",
-  "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics": "https://aclanthology.org/2025.findings-emnlp.1141/",
-  "Understanding Adam Requires Better Rotation Dependent Assumptions": "https://openreview.net/forum?id=KD4wgunbhO",
-  "Manifold Metric: A Loss Landscape Approach for Predicting Model Performance": "https://arxiv.org/abs/2405.15895",
-  "Nonparametric Partial Disentanglement via Mechanism Sparsity: Sparse Actions, Interventions and Sparse Temporal Dependencies": "https://jmlr.org/papers/v27/24-0771.html"
+  "On the Sample Efficiency of Inverse Dynamics Models for Semi-Supervised Imitation Learning": {
+    "link": "https://openreview.net/forum?id=7hg1iTd34D"
+  },
+  "From Lyapunov Analysis to Algorithm Design in two-sided PL Minimax Optimization": {
+    "link": "https://openreview.net/forum?id=UIyXPhhxlf"
+  },
+  "On the Convergence of Steepest Descent and Adaptive Gradient Methods under Non-Uniform Smoothness": {
+    "link": "https://openreview.net/forum?id=vwTTp11PTD",
+    "title": "Convergence of Steepest Descent and Adam under Non-Uniform Smoothness"
+  },
+  "Towards Parameter-Free Temporal Difference Learning": {
+    "link": "https://openreview.net/forum?id=ppIhZgFCTI"
+  },
+  "Identifiability of potentially degenerate Gaussian Mixture Models with piecewise affine mixing": {
+    "link": "https://openreview.net/forum?id=EXUX2g9XVu"
+  },
+  "Towards Learned Optimization Free Lunch": {
+    "link": "https://openreview.net/forum?id=hxDB30LwVe",
+    "title": "Celo2: Towards Learned Optimization Free Lunch"
+  },
+  "µLO: Compute-Efficient Meta-Generalization of Learned Optimizers": {
+    "link": "https://openreview.net/forum?id=f8z2bzOLK2"
+  },
+  "Strongly Convex Sets in Riemannian Manifolds": {
+    "link": "https://openreview.net/forum?id=4sDszSYKP6"
+  },
+  "(Almost) Free Modality Alignment of Foundation Models": {
+    "link": "https://aclanthology.org/2025.emnlp-main.1001/",
+    "title": "(Almost) Free Modality Stitching of Foundation Models"
+  },
+  "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics": {
+    "link": "https://aclanthology.org/2025.findings-emnlp.1141/"
+  },
+  "Understanding Adam Requires Better Rotation Dependent Assumptions": {
+    "link": "https://openreview.net/forum?id=KD4wgunbhO"
+  },
+  "Manifold Metric: A Loss Landscape Approach for Predicting Model Performance": {
+    "link": "https://arxiv.org/abs/2405.15895"
+  },
+  "Nonparametric Partial Disentanglement via Mechanism Sparsity: Sparse Actions, Interventions and Sparse Temporal Dependencies": {
+    "link": "https://jmlr.org/papers/v27/24-0771.html"
+  }
 }

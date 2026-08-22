@@ -21,7 +21,7 @@
       }
     ],
     "links": [
-      "https://icml.cc/virtual/2026/poster/66034"
+      "https://openreview.net/forum?id=7hg1iTd34D"
     ],
     "published": null
   },
@@ -52,7 +52,7 @@
     "published": null
   },
   {
-    "title": "On the Convergence of Steepest Descent and Adaptive Gradient Methods under Non-Uniform Smoothness",
+    "title": "Convergence of Steepest Descent and Adam under Non-Uniform Smoothness",
     "venue": "ICML 2026",
     "authors": [
       {
@@ -95,12 +95,12 @@
       }
     ],
     "links": [
-      "https://icml.cc/virtual/2026/poster/61477"
+      "https://openreview.net/forum?id=ppIhZgFCTI"
     ],
     "published": null
   },
   {
-    "title": "Towards Learned Optimization Free Lunch",
+    "title": "Celo2: Towards Learned Optimization Free Lunch",
     "venue": "ICLR 2026",
     "authors": [
       {
@@ -117,7 +117,7 @@
       }
     ],
     "links": [
-      "https://iclr.cc/virtual/2026/poster/10008009"
+      "https://openreview.net/forum?id=hxDB30LwVe"
     ],
     "published": null
   },
@@ -151,7 +151,7 @@
       }
     ],
     "links": [
-      "https://iclr.cc/virtual/2026/poster/10008268"
+      "https://openreview.net/forum?id=f8z2bzOLK2"
     ],
     "published": null
   },
@@ -276,7 +276,7 @@
     "published": "Dec 2025"
   },
   {
-    "title": "(Almost) Free Modality Alignment of Foundation Models",
+    "title": "(Almost) Free Modality Stitching of Foundation Models",
     "venue": "EMNLP 2025",
     "authors": [
       {

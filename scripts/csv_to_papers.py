@@ -197,12 +197,17 @@ def main() -> None:
     csv_path = Path(sys.argv[1] if len(sys.argv) > 1 else "published paper Web site - Sheet1.csv")
     out_path = Path(__file__).resolve().parent.parent / "papers.json"
 
-    # Link overrides for papers the sheet has no link for yet (keyed by title).
-    overrides: dict[str, str] = {}
+    # Manual overrides keyed by the sheet title. Values are
+    # {"link": ..., "title": ...} (a bare string means link only).
+    # "link" applies only when the sheet row has no link; "title"
+    # replaces the sheet title.
+    overrides: dict[str, dict] = {}
     overrides_path = Path(__file__).resolve().parent / "paper_links.json"
     if overrides_path.exists():
-        for t, u in json.loads(overrides_path.read_text(encoding="utf-8")).items():
-            overrides[norm(t)] = u
+        for t, v in json.loads(overrides_path.read_text(encoding="utf-8")).items():
+            if isinstance(v, str):
+                v = {"link": v}
+            overrides[norm(t)] = v
 
     with csv_path.open(newline="", encoding="utf-8-sig") as f:
         rows = list(csv.reader(f))
@@ -234,7 +239,8 @@ def main() -> None:
         return row[i].strip() if i < len(row) else ""
 
     # Pass 1: parse rows.
-    papers, unmatched, applied_links = [], [], 0
+    papers, unmatched, applied_links, applied_titles = [], [], 0, 0
+    used_overrides: set[str] = set()
     for row in rows[header_idx + 1 :]:
         title = cell(row, c_title)
         if not title:
@@ -252,9 +258,15 @@ def main() -> None:
         flags = [f for f in flags if f]
 
         links = [l for l in (cell(row, c_link1), cell(row, c_link2)) if l]
-        if not links and norm(title) in overrides:
-            links = [overrides[norm(title)]]
-            applied_links += 1
+        ov = overrides.get(norm(title))
+        if ov:
+            used_overrides.add(norm(title))
+            if ov.get("title"):
+                title = ov["title"]
+                applied_titles += 1
+            if not links and ov.get("link"):
+                links = [ov["link"]]
+                applied_links += 1
         papers.append(
             {
                 "title": title,
@@ -326,8 +338,9 @@ def main() -> None:
     print(f"wrote {out_path}: {len(papers)} papers, {sail_total} SAIL authors marked")
     if applied_links:
         print(f"applied {applied_links} link override(s) from paper_links.json")
-    paper_titles = {norm(p["title"]) for p in papers}
-    unused = [t for t in overrides if t not in paper_titles]
+    if applied_titles:
+        print(f"applied {applied_titles} title override(s) from paper_links.json")
+    unused = [t for t in overrides if t not in used_overrides]
     if unused:
         print("warning: overrides that matched no paper:")
         print("\n".join(f"  '{t}'" for t in sorted(unused)))
