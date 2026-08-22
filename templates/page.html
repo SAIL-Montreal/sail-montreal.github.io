@@ -78,3 +78,20 @@
 <meta property="og:url" content="{{ page.permalink }}" />
 <meta property="og:image" content="{{ get_url(path="og-image.png", trailing_slash=false) }}" />
 {%- endblock meta %}
+{% block extra_head -%}
+<style>
+a.p-home__logo-link { display: block; }
+.p-home__logo {
+    display: block;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+}
+</style>
+{%- endblock extra_head %}
+
+{% block header -%}
+<header class="l-header">
+    <a href="{{ config.base_url }}" class="p-home__logo-link"><img src="/logo.webp" alt="SAIL Montreal" class="p-home__logo"></a>
+</header>
+{%- endblock header %}

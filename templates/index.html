@@ -46,12 +46,12 @@
 .p-person__title { color: #666; font-size: 0.95em; }
 .p-person__links { font-size: 0.9em; }
 .p-person__links a { margin: 0 0.25em; }
+a.p-home__logo-link { display: block; }
 .p-home__logo {
     display: block;
-    width: 100%;
     max-width: 320px;
     height: auto;
-    margin: 0 auto 2em;
+    margin: 0 auto;
 }
 </style>
 {%- endblock extra_head %}
@@ -61,11 +61,15 @@
 <meta property="og:url" content="{{ config.base_url }}" />
 <meta property="og:image" content="{{ get_url(path="og-image.png", trailing_slash=false) }}" />
 {%- endblock meta %}
+{% block header -%}
+<header class="l-header">
+    <a href="{{ config.base_url }}" class="p-home__logo-link"><img src="/logo.webp" alt="SAIL Montreal" class="p-home__logo"></a>
+</header>
+{%- endblock header %}
 {% block content -%}
 {% set papers = load_data(path="papers.json") %}
 {% set people = load_data(path="people.json") %}
 <section class="p-section">
-    <img src="/logo.webp" alt="SAIL Montreal logo" class="p-home__logo">
     {{ section.content | safe }}
 
     <h2>SAIL published papers ({{ papers | length }})</h2>
