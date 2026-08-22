@@ -52,6 +52,13 @@ FIRST_TO_FULL = {
     "marwa": "marwa el halabi",
     "jihye": "jihye kim",
 }
+# Canonical display names for SAIL members, keyed by normalized name.
+# Variants found in the sheet are standardized to the canonical form.
+CANONICAL_NAMES = {
+    "alexia jolicoeur": "Alexia Jolicoeur-Martineau",
+    "reza babanezhad harikandeh": "Reza Babanezhad",
+    "sebastien lachapelle": "Sébastien Lachapelle",
+}
 
 AFFIL_RE = re.compile(r"^(.*?)\s*\((SAIL|Mila)\)\s*$", re.IGNORECASE)
 
@@ -108,6 +115,13 @@ def main() -> None:
     csv_path = Path(sys.argv[1] if len(sys.argv) > 1 else "published paper Web site - Sheet1.csv")
     out_path = Path(__file__).resolve().parent.parent / "papers.json"
 
+    # Link overrides for papers the sheet has no link for yet (keyed by title).
+    overrides: dict[str, str] = {}
+    overrides_path = Path(__file__).resolve().parent / "paper_links.json"
+    if overrides_path.exists():
+        for t, u in json.loads(overrides_path.read_text(encoding="utf-8")).items():
+            overrides[norm(t)] = u
+
     with csv_path.open(newline="", encoding="utf-8-sig") as f:
         rows = list(csv.reader(f))
 
@@ -138,7 +152,7 @@ def main() -> None:
         return row[i].strip() if i < len(row) else ""
 
     # Pass 1: parse rows.
-    papers, unmatched = [], []
+    papers, unmatched, applied_links = [], [], 0
     for row in rows[header_idx + 1 :]:
         title = cell(row, c_title)
         if not title:
@@ -156,6 +170,9 @@ def main() -> None:
         flags = [f for f in flags if f]
 
         links = [l for l in (cell(row, c_link1), cell(row, c_link2)) if l]
+        if not links and norm(title) in overrides:
+            links = [overrides[norm(title)]]
+            applied_links += 1
         papers.append(
             {
                 "title": title,
@@ -194,6 +211,8 @@ def main() -> None:
         for a in p["authors"]:
             an = norm(a["name"])
             a["sail"] = a["sail_ann"] or any(matches(an, m) for m in members)
+            if a["sail"] and an in CANONICAL_NAMES:
+                a["name"] = CANONICAL_NAMES[an]
             del a["sail_ann"]
         for f in p["flags"]:
             if not any(matches(norm(a["name"]), f) for a in p["authors"]):
@@ -205,6 +224,13 @@ def main() -> None:
     )
     sail_total = sum(a["sail"] for p in papers for a in p["authors"])
     print(f"wrote {out_path}: {len(papers)} papers, {sail_total} SAIL authors marked")
+    if applied_links:
+        print(f"applied {applied_links} link override(s) from paper_links.json")
+    paper_titles = {norm(p["title"]) for p in papers}
+    unused = [t for t in overrides if t not in paper_titles]
+    if unused:
+        print("warning: overrides that matched no paper:")
+        print("\n".join(f"  '{t}'" for t in sorted(unused)))
     if unmatched:
         print("warning: SAIL flags that matched no author in the list:")
         print("\n".join(sorted(set(unmatched))))

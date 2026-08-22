@@ -1,0 +1,15 @@
+{
+  "On the Sample Efficiency of Inverse Dynamics Models for Semi-Supervised Imitation Learning": "https://icml.cc/virtual/2026/poster/66034",
+  "From Lyapunov Analysis to Algorithm Design in two-sided PL Minimax Optimization": "https://openreview.net/forum?id=UIyXPhhxlf",
+  "On the Convergence of Steepest Descent and Adaptive Gradient Methods under Non-Uniform Smoothness": "https://openreview.net/forum?id=vwTTp11PTD",
+  "Towards Parameter-Free Temporal Difference Learning": "https://icml.cc/virtual/2026/poster/61477",
+  "Identifiability of potentially degenerate Gaussian Mixture Models with piecewise affine mixing": "https://openreview.net/forum?id=EXUX2g9XVu",
+  "Towards Learned Optimization Free Lunch": "https://iclr.cc/virtual/2026/poster/10008009",
+  "µLO: Compute-Efficient Meta-Generalization of Learned Optimizers": "https://iclr.cc/virtual/2026/poster/10008268",
+  "Strongly Convex Sets in Riemannian Manifolds": "https://openreview.net/forum?id=4sDszSYKP6",
+  "(Almost) Free Modality Alignment of Foundation Models": "https://arxiv.org/abs/2507.10015",
+  "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics": "https://arxiv.org/abs/2506.08835",
+  "Understanding Adam Requires Better Rotation Dependent Assumptions": "https://openreview.net/forum?id=KD4wgunbhO",
+  "Manifold Metric: A Loss Landscape Approach for Predicting Model Performance": "https://arxiv.org/abs/2405.15895",
+  "Nonparametric Partial Disentanglement via Mechanism Sparsity: Sparse Actions, Interventions and Sparse Temporal Dependencies": "https://jmlr.org/papers/v27/24-0771.html"
+}

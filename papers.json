@@ -13,7 +13,7 @@
         "sail": false
       },
       {
-        "name": "Alexia Jolicoeur",
+        "name": "Alexia Jolicoeur-Martineau",
         "sail": true
       },
       {
@@ -21,7 +21,9 @@
         "sail": true
       }
     ],
-    "links": []
+    "links": [
+      "https://icml.cc/virtual/2026/poster/66034"
+    ]
   },
   {
     "title": "From Lyapunov Analysis to Algorithm Design in two-sided PL Minimax Optimization",
@@ -45,7 +47,9 @@
         "sail": true
       }
     ],
-    "links": []
+    "links": [
+      "https://openreview.net/forum?id=UIyXPhhxlf"
+    ]
   },
   {
     "title": "On the Convergence of Steepest Descent and Adaptive Gradient Methods under Non-Uniform Smoothness",
@@ -65,7 +69,9 @@
         "sail": true
       }
     ],
-    "links": []
+    "links": [
+      "https://openreview.net/forum?id=vwTTp11PTD"
+    ]
   },
   {
     "title": "Towards Parameter-Free Temporal Difference Learning",
@@ -81,7 +87,7 @@
         "sail": false
       },
       {
-        "name": "Reza Babanezhad Harikandeh",
+        "name": "Reza Babanezhad",
         "sail": true
       },
       {
@@ -89,7 +95,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://icml.cc/virtual/2026/poster/61477"
+    ]
   },
   {
     "title": "Any-Property-Conditional Molecule Generation with Self-Criticism using Spanning Trees",
@@ -139,7 +147,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://openreview.net/forum?id=EXUX2g9XVu"
+    ]
   },
   {
     "title": "Towards Learned Optimization Free Lunch",
@@ -159,7 +169,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://iclr.cc/virtual/2026/poster/10008009"
+    ]
   },
   {
     "title": "µLO: Compute-Efficient Meta-Generalization of Learned Optimizers",
@@ -191,7 +203,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://iclr.cc/virtual/2026/poster/10008268"
+    ]
   },
   {
     "title": "Strongly Convex Sets in Riemannian Manifolds",
@@ -219,7 +233,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://openreview.net/forum?id=4sDszSYKP6"
+    ]
   },
   {
     "title": "(Almost) Free Modality Alignment of Foundation Models",
@@ -243,7 +259,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://arxiv.org/abs/2507.10015"
+    ]
   },
   {
     "title": "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics",
@@ -287,7 +305,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://arxiv.org/abs/2506.08835"
+    ]
   },
   {
     "title": "Understanding Adam Requires Better Rotation Dependent Assumptions",
@@ -327,7 +347,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://openreview.net/forum?id=KD4wgunbhO"
+    ]
   },
   {
     "title": "Manifold Metric: A Loss Landscape Approach for Predicting Model Performance",
@@ -355,7 +377,9 @@
         "sail": false
       }
     ],
-    "links": []
+    "links": [
+      "https://arxiv.org/abs/2405.15895"
+    ]
   },
   {
     "title": "Ctrl-V: Higher Fidelity Autonomous Vehicle Video Generation with Bounding-Box Controlled Object Motion",
@@ -510,7 +534,7 @@
         "sail": false
       },
       {
-        "name": "Reza Babanezhad Harikandeh",
+        "name": "Reza Babanezhad",
         "sail": true
       },
       {
@@ -604,7 +628,7 @@
         "sail": false
       },
       {
-        "name": "Sebastien Lachapelle",
+        "name": "Sébastien Lachapelle",
         "sail": true
       },
       {
@@ -698,7 +722,7 @@
         "sail": true
       },
       {
-        "name": "Reza Babanezhad Harikandeh",
+        "name": "Reza Babanezhad",
         "sail": true
       },
       {
@@ -756,7 +780,9 @@
         "sail": true
       }
     ],
-    "links": []
+    "links": [
+      "https://jmlr.org/papers/v27/24-0771.html"
+    ]
   },
   {
     "title": "Iterative Methods via Locally Evolving Set Process",
@@ -908,7 +934,7 @@
         "sail": false
       },
       {
-        "name": "Sebastien Lachapelle",
+        "name": "Sébastien Lachapelle",
         "sail": true
       },
       {
@@ -1198,7 +1224,7 @@
         "sail": false
       },
       {
-        "name": "Sebastien Lachapelle",
+        "name": "Sébastien Lachapelle",
         "sail": true
       },
       {
@@ -1241,7 +1267,7 @@
         "sail": false
       },
       {
-        "name": "Reza Babanezhad Harikandeh",
+        "name": "Reza Babanezhad",
         "sail": true
       },
       {
@@ -1764,7 +1790,7 @@
         "sail": false
       },
       {
-        "name": "Reza Babanezhad Harikandeh",
+        "name": "Reza Babanezhad",
         "sail": true
       },
       {
