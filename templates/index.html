@@ -53,22 +53,7 @@
 {% set papers = load_data(path="papers.json") %}
 {% set people = load_data(path="people.json") %}
 <section class="p-section">
-    <h2>What is SAIL Montreal?</h2>
-    <p>
-        SAIL Montreal (SAIT AI Lab Montreal) is a recently established academic-style
-        research lab (in close collaboration with <a href="https://mila.quebec/">Mila</a>)
-        from Samsung whose mission is to advance our fundamental understanding of deep
-        learning technology and its applications. Headed by Simon Lacoste-Julien,
-        professor in computer science at Université de Montréal and co-founding member
-        of Mila, SAIL is located in Mila's corporate space at the heart of the Montreal
-        AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an
-        open collaborative environment is encouraged.
-    </p>
-    <p>
-        Code:
-        <a href="https://github.com/SamsungSAILMontreal">GitHub</a> —
-        <a href="https://huggingface.co/SamsungSAILMontreal">Hugging Face</a>
-    </p>
+    {{ section.content | safe }}
 
     <h2>SAIL published papers ({{ papers | length }})</h2>
     <ul class="p-papers__list">
