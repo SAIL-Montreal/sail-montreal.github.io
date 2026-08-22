@@ -73,6 +73,7 @@ FORMER_MEMBERS = [
     "Namyeong Kwon",
     "DoKwan Oh",
     "Daehyun Ji",
+    "Moonsub Byeon",
 ]
 # Standard display names for venues, keyed by normalized sheet value.
 VENUE_CANONICAL = {

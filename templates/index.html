@@ -29,7 +29,20 @@
     object-fit: cover;
     border-radius: 50%;
 }
-.p-person__name { font-weight: bold; margin-top: 0.5em; }
+.p-person__links a { margin: 0 0.25em; }
+.p-person__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #e0e0e0;
+    color: #555;
+    font-size: 3em;
+    font-weight: bold;
+}
 .p-person__title { color: #666; font-size: 0.95em; }
 .p-person__links { font-size: 0.9em; }
 .p-person__links a { margin: 0 0.25em; }
@@ -108,7 +121,11 @@
         <div class="p-people__grid">
             {% for person in group.members %}
             <div class="p-person">
+                {% if person.image %}
                 <img src="{{ person.image }}" alt="{{ person.name }}" loading="lazy">
+                {%- else %}
+                <span class="p-person__avatar" aria-hidden="true">{{ person.name[0] }}</span>
+                {%- endif %}
                 <div class="p-person__name">{{ person.name }}</div>
                 <div class="p-person__title">{{ person.title }}{% if person.years %} ({{ person.years }}){% endif %}</div>
                 <div class="p-person__links">
