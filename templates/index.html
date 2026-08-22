@@ -60,26 +60,6 @@
         <a href="https://huggingface.co/SamsungSAILMontreal">Hugging Face</a>
     </p>
 
-    <h2>People</h2>
-    {% for group in people.groups %}
-    <div class="p-people__group">
-        <h3>{{ group.label }}</h3>
-        <div class="p-people__grid">
-            {% for person in group.members %}
-            <div class="p-person">
-                <img src="{{ person.image }}" alt="{{ person.name }}" loading="lazy">
-                <div class="p-person__name">{{ person.name }}</div>
-                <div class="p-person__title">{{ person.title }}{% if person.years %} ({{ person.years }}){% endif %}</div>
-                <div class="p-person__links">
-                    {% if person.website %}<a href="{{ person.website }}" rel="me">Website</a>{% endif %}
-                    {% if person.scholar %}<a href="{{ person.scholar }}" rel="me">Scholar</a>{% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endfor %}
-
     <details class="p-papers">
         <summary>SAIL published papers ({{ papers | length }})</summary>
         <ul>
@@ -100,6 +80,26 @@
             {% endfor %}
         </ul>
     </details>
+
+    <h2>People</h2>
+    {% for group in people.groups %}
+    <div class="p-people__group">
+        <h3>{{ group.label }}</h3>
+        <div class="p-people__grid">
+            {% for person in group.members %}
+            <div class="p-person">
+                <img src="{{ person.image }}" alt="{{ person.name }}" loading="lazy">
+                <div class="p-person__name">{{ person.name }}</div>
+                <div class="p-person__title">{{ person.title }}{% if person.years %} ({{ person.years }}){% endif %}</div>
+                <div class="p-person__links">
+                    {% if person.website %}<a href="{{ person.website }}" rel="me">Website</a>{% endif %}
+                    {% if person.scholar %}<a href="{{ person.scholar }}" rel="me">Scholar</a>{% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
     <div class="p-about__photos">
         <img src="/people/sail-lab-01.jpg" alt="SAIL Montreal lab" width="480">
         <img src="/people/sail-lab-02.jpg" alt="SAIL Montreal lab" width="480">
