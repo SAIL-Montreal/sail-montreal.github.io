@@ -83,6 +83,7 @@ VENUE_CANONICAL = {
     "(tmlr)": "TMLR",
     "(tmlr) dec 2022": "TMLR",
     "foundation and trends \u00a9 in optimization": "Foundations and Trends in Optimization",
+    "machine learning journal": "Machine Learning",
 }
 
 AFFIL_RE = re.compile(r"^(.*?)\s*\((SAIL|Mila)\)\s*$", re.IGNORECASE)
