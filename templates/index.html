@@ -128,7 +128,17 @@
     <h2>Blog</h2>
     {% for page in paginator.pages %}
     <article class="c-article p-list-article">
-        {{ <post_title page /> }}
+        <header>
+            <h2 class="c-title c-article__title"><a href="{{ page.permalink }}">{{ page.title | markdown | striptags | safe }}</a></h2>
+            <p class="c-article__meta">
+                <time datetime="{{ page.date | date(format="%F") | safe }}">
+                    {{ page.date | date(format="%F") }}
+                </time>
+                {% if page.extra.author -%}
+                by {{ page.extra.author }}
+                {%- endif %}
+            </p>
+        </header>
         <div class="c-article__summary">
             {{ page.content | striptags | truncate(length=280, endpoint="…") }}
         </div>
