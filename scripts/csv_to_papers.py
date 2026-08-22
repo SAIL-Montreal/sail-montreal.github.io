@@ -136,6 +136,59 @@ def matches(author_norm: str, member_norm: str) -> bool:
         or is_truncation(author_norm, member_norm)
     )
 
+# Approximate proceedings-release month per conference, for sorting.
+CONFERENCE_MONTHS = {
+    "ICLR": 5,
+    "AISTATS": 4,
+    "ICML": 7,
+    "UAI": 7,
+    "ACL": 7,
+    "EMNLP": 11,
+    "NeurIPS": 11,
+    "EACL": 3,
+}
+# English and French month names used in the sheet, keyed by name.
+MONTH_NAMES = {
+    "january": 1, "jan": 1, "february": 2, "fevr": 2, "fev": 2,
+    "march": 3, "mar": 3, "april": 4, "apr": 4, "may": 5, "mai": 5,
+    "june": 6, "jun": 6, "july": 7, "jul": 7, "august": 8, "aug": 8,
+    "september": 9, "sept": 9, "sep": 9, "october": 10, "oct": 10,
+    "november": 11, "nov": 11, "december": 12, "dec": 12,
+}
+_MONTH_ALT = "|".join(sorted(MONTH_NAMES, key=len, reverse=True))
+MONTH_RE = re.compile(rf"({_MONTH_ALT})\.?\s+(\d{{2,4}})\b")
+MONTH_WORD_RE = re.compile(rf"\b({_MONTH_ALT})\b")
+# (year, month) for papers whose venue and notification carry no usable date.
+DATE_FALLBACK = {
+    # TMLR 12/2022 (arXiv 2209.09658 journal ref)
+    "lazy vs hasty: linearization in deep networks impacts learning "
+    "schedule based on example difficulty": (2022, 12),
+}
+
+
+def publication_date(venue: str, notification: str, title: str) -> tuple[int, int]:
+    """Best-effort (year, month) publication date; (0, 0) if unknown."""
+    m = re.search(r"(\d{4})\s*$", venue.strip())
+    if m:
+        prefix = venue[: m.start()].strip().upper()
+        return int(m.group(1)), CONFERENCE_MONTHS.get(prefix, 0)
+    # Journal: date comes from the notification column. If both a
+    # notification and a publication date are given ("Nov 24 - published
+    # June 25"), the publication side is wanted.
+    n = norm(notification)
+    if "published" in n:
+        n = n.rsplit("published", 1)[1]
+    mm = MONTH_RE.search(n)
+    if mm:
+        month = MONTH_NAMES[mm.group(1)]
+        yy = int(mm.group(2))
+        return (yy if yy >= 100 else 2000 + yy), month
+    mm = MONTH_WORD_RE.search(n)
+    ym = re.search(r"(\d{4})", n)
+    if mm and ym:
+        return int(ym.group(1)), MONTH_NAMES[mm.group(1)]
+    return DATE_FALLBACK.get(norm(title), (0, 0))
+
 
 def main() -> None:
     csv_path = Path(sys.argv[1] if len(sys.argv) > 1 else "published paper Web site - Sheet1.csv")
@@ -247,6 +300,11 @@ def main() -> None:
                 unmatched.append(f"  flag '{f}' matched no author (paper: {p['title']})")
         del p["flags"]
 
+    # Newest first; stable, so equal dates keep sheet order.
+    papers.sort(
+        key=lambda p: publication_date(p["venue"], p["notification"], p["title"]),
+        reverse=True,
+    )
     out_path.write_text(
         json.dumps(papers, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )

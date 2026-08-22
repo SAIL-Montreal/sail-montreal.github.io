@@ -100,58 +100,6 @@
     ]
   },
   {
-    "title": "Any-Property-Conditional Molecule Generation with Self-Criticism using Spanning Trees",
-    "venue": "TMLR",
-    "notification": "published Dec 25",
-    "authors": [
-      {
-        "name": "Alexia Jolicoeur-Martineau",
-        "sail": true
-      },
-      {
-        "name": "Aristide Baratin",
-        "sail": true
-      },
-      {
-        "name": "Kisoo Kwon",
-        "sail": true
-      },
-      {
-        "name": "Boris Knyazev",
-        "sail": true
-      },
-      {
-        "name": "Yan Zhang",
-        "sail": true
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=QGZd5Bfb1L"
-    ]
-  },
-  {
-    "title": "Identifiability of potentially degenerate Gaussian Mixture Models with piecewise affine mixing",
-    "venue": "AISTATS 2026",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Danru Xu",
-        "sail": false
-      },
-      {
-        "name": "Sébastien Lachapelle",
-        "sail": true
-      },
-      {
-        "name": "Sara Magliacane",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=EXUX2g9XVu"
-    ]
-  },
-  {
     "title": "Towards Learned Optimization Free Lunch",
     "venue": "ICLR 2026",
     "notification": "",
@@ -238,6 +186,96 @@
     ]
   },
   {
+    "title": "Nonparametric Partial Disentanglement via Mechanism Sparsity: Sparse Actions, Interventions and Sparse Temporal Dependencies",
+    "venue": "JMLR",
+    "notification": "published May 2026",
+    "authors": [
+      {
+        "name": "Sébastien Lachapelle",
+        "sail": true
+      },
+      {
+        "name": "Pau Rodriguez Lopez",
+        "sail": false
+      },
+      {
+        "name": "Yash Sharma",
+        "sail": false
+      },
+      {
+        "name": "Katie Everett",
+        "sail": false
+      },
+      {
+        "name": "Rémi Le Priol",
+        "sail": false
+      },
+      {
+        "name": "Alexandre Lacoste",
+        "sail": false
+      },
+      {
+        "name": "Simon Lacoste-Julien",
+        "sail": true
+      }
+    ],
+    "links": [
+      "https://jmlr.org/papers/v27/24-0771.html"
+    ]
+  },
+  {
+    "title": "Identifiability of potentially degenerate Gaussian Mixture Models with piecewise affine mixing",
+    "venue": "AISTATS 2026",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Danru Xu",
+        "sail": false
+      },
+      {
+        "name": "Sébastien Lachapelle",
+        "sail": true
+      },
+      {
+        "name": "Sara Magliacane",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=EXUX2g9XVu"
+    ]
+  },
+  {
+    "title": "Any-Property-Conditional Molecule Generation with Self-Criticism using Spanning Trees",
+    "venue": "TMLR",
+    "notification": "published Dec 25",
+    "authors": [
+      {
+        "name": "Alexia Jolicoeur-Martineau",
+        "sail": true
+      },
+      {
+        "name": "Aristide Baratin",
+        "sail": true
+      },
+      {
+        "name": "Kisoo Kwon",
+        "sail": true
+      },
+      {
+        "name": "Boris Knyazev",
+        "sail": true
+      },
+      {
+        "name": "Yan Zhang",
+        "sail": true
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=QGZd5Bfb1L"
+    ]
+  },
+  {
     "title": "(Almost) Free Modality Alignment of Foundation Models",
     "venue": "EMNLP 2025",
     "notification": "",
@@ -310,75 +348,29 @@
     ]
   },
   {
-    "title": "Understanding Adam Requires Better Rotation Dependent Assumptions",
-    "venue": "NeurIPS 2025",
-    "notification": "",
+    "title": "Learning Versatile Optimizers on a Compute Diet",
+    "venue": "TMLR",
+    "notification": "Nov 24 - published June 25",
     "authors": [
       {
-        "name": "Tianyue H. Zhang",
+        "name": "Abhinav Moudgil",
         "sail": false
       },
       {
-        "name": "Lucas Maes",
-        "sail": false
-      },
-      {
-        "name": "Alan Milligan",
-        "sail": false
-      },
-      {
-        "name": "Alexia Jolicoeur-Martineau",
+        "name": "Boris Knyazev",
         "sail": true
       },
       {
-        "name": "Ioannis Mitliagkas",
+        "name": "Guillaume Lajoie",
         "sail": false
       },
       {
-        "name": "Damien Scieur",
-        "sail": true
-      },
-      {
-        "name": "Simon Lacoste-Julien",
-        "sail": true
-      },
-      {
-        "name": "Charles Guille-Escuret",
+        "name": "Eugene Belilovsky",
         "sail": false
       }
     ],
     "links": [
-      "https://openreview.net/forum?id=KD4wgunbhO"
-    ]
-  },
-  {
-    "title": "Manifold Metric: A Loss Landscape Approach for Predicting Model Performance",
-    "venue": "CoLLAs 2025",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Pranshu Malviya",
-        "sail": false
-      },
-      {
-        "name": "Jerry Huang",
-        "sail": false
-      },
-      {
-        "name": "Aristide Baratin",
-        "sail": true
-      },
-      {
-        "name": "Quentin Fournier",
-        "sail": false
-      },
-      {
-        "name": "Sarath Chandar",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://arxiv.org/abs/2405.15895"
+      "https://openreview.net/forum?id=SLqJbt4emY"
     ]
   },
   {
@@ -409,149 +401,6 @@
     ],
     "links": [
       "https://openreview.net/forum?id=BMGikHBjlx"
-    ]
-  },
-  {
-    "title": "(Accelerated) Noise-adaptive Stochastic Heavy-Ball Momentum",
-    "venue": "TMLR",
-    "notification": "published April 25",
-    "authors": [
-      {
-        "name": "Anh Dang",
-        "sail": false
-      },
-      {
-        "name": "Reza Babanezhad",
-        "sail": true
-      },
-      {
-        "name": "Sharan Vaswani",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=Okxp1W8If0"
-    ]
-  },
-  {
-    "title": "Learning Versatile Optimizers on a Compute Diet",
-    "venue": "TMLR",
-    "notification": "Nov 24 - published June 25",
-    "authors": [
-      {
-        "name": "Abhinav Moudgil",
-        "sail": false
-      },
-      {
-        "name": "Boris Knyazev",
-        "sail": true
-      },
-      {
-        "name": "Guillaume Lajoie",
-        "sail": false
-      },
-      {
-        "name": "Eugene Belilovsky",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=SLqJbt4emY"
-    ]
-  },
-  {
-    "title": "Maxwell's Demon at Work: Efficient Pruning by Leveraging Saturation of Neurons",
-    "venue": "TMLR",
-    "notification": "Nov 24 - published Fev 25",
-    "authors": [
-      {
-        "name": "Simon Dufort-Labbé",
-        "sail": false
-      },
-      {
-        "name": "Pierluca D'Oro",
-        "sail": false
-      },
-      {
-        "name": "Evgenii Nikishin",
-        "sail": false
-      },
-      {
-        "name": "Irina Rish",
-        "sail": false
-      },
-      {
-        "name": "Pierre-Luc Bacon",
-        "sail": false
-      },
-      {
-        "name": "Razvan Pascanu",
-        "sail": false
-      },
-      {
-        "name": "Aristide Baratin",
-        "sail": true
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=nmBleuFzaN"
-    ]
-  },
-  {
-    "title": "All or None: Identifiable Linear Properties of Next-Token Predictors in Language Modeling",
-    "venue": "AISTATS 2025",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Emanuele Marconato",
-        "sail": false
-      },
-      {
-        "name": "Sébastien Lachapelle",
-        "sail": true
-      },
-      {
-        "name": "Sebastian Weichwald",
-        "sail": false
-      },
-      {
-        "name": "Luigi Gresele",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=deBU7Dbcgz",
-      "https://arxiv.org/html/2410.23501v1"
-    ]
-  },
-  {
-    "title": "Fast Convergence of Softmax Policy Mirror Ascent for Bandits & Tabular MDPs",
-    "venue": "AISTATS 2025",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Reza Asad",
-        "sail": false
-      },
-      {
-        "name": "Reza Babanezhad",
-        "sail": true
-      },
-      {
-        "name": "Issam H. Laradji",
-        "sail": false
-      },
-      {
-        "name": "Nicolas Le Roux",
-        "sail": false
-      },
-      {
-        "name": "Sharan Vaswani",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=f5OjNMXIik&referrer=%5Bthe%20profile%20of%20Reza%20Babanezhad%20Harikandeh%5D(%2Fprofile%3Fid%3D~Reza_Babanezhad_Harikandeh1)"
     ]
   },
   {
@@ -675,6 +524,85 @@
     ]
   },
   {
+    "title": "(Accelerated) Noise-adaptive Stochastic Heavy-Ball Momentum",
+    "venue": "TMLR",
+    "notification": "published April 25",
+    "authors": [
+      {
+        "name": "Anh Dang",
+        "sail": false
+      },
+      {
+        "name": "Reza Babanezhad",
+        "sail": true
+      },
+      {
+        "name": "Sharan Vaswani",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=Okxp1W8If0"
+    ]
+  },
+  {
+    "title": "All or None: Identifiable Linear Properties of Next-Token Predictors in Language Modeling",
+    "venue": "AISTATS 2025",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Emanuele Marconato",
+        "sail": false
+      },
+      {
+        "name": "Sébastien Lachapelle",
+        "sail": true
+      },
+      {
+        "name": "Sebastian Weichwald",
+        "sail": false
+      },
+      {
+        "name": "Luigi Gresele",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=deBU7Dbcgz",
+      "https://arxiv.org/html/2410.23501v1"
+    ]
+  },
+  {
+    "title": "Fast Convergence of Softmax Policy Mirror Ascent for Bandits & Tabular MDPs",
+    "venue": "AISTATS 2025",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Reza Asad",
+        "sail": false
+      },
+      {
+        "name": "Reza Babanezhad",
+        "sail": true
+      },
+      {
+        "name": "Issam H. Laradji",
+        "sail": false
+      },
+      {
+        "name": "Nicolas Le Roux",
+        "sail": false
+      },
+      {
+        "name": "Sharan Vaswani",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=f5OjNMXIik&referrer=%5Bthe%20profile%20of%20Reza%20Babanezhad%20Harikandeh%5D(%2Fprofile%3Fid%3D~Reza_Babanezhad_Harikandeh1)"
+    ]
+  },
+  {
     "title": "Meta-learning Optimizers for Communication-Efficient Learning",
     "venue": "TMLR",
     "notification": "published March 2025",
@@ -705,130 +633,96 @@
     ]
   },
   {
-    "title": "Promoting Exploration in Memory-Augmented Adam using Critical Momenta",
+    "title": "Maxwell's Demon at Work: Efficient Pruning by Leveraging Saturation of Neurons",
     "venue": "TMLR",
-    "notification": "Published June 2024",
+    "notification": "Nov 24 - published Fev 25",
     "authors": [
       {
-        "name": "Pranshu Malviya",
+        "name": "Simon Dufort-Labbé",
         "sail": false
       },
       {
-        "name": "Goncalo Mordido",
+        "name": "Pierluca D'Oro",
         "sail": false
       },
       {
-        "name": "Aristide Baratin",
-        "sail": true
-      },
-      {
-        "name": "Reza Babanezhad",
-        "sail": true
-      },
-      {
-        "name": "Jerry Huang",
+        "name": "Evgenii Nikishin",
         "sail": false
       },
       {
-        "name": "Simon Lacoste-Julien",
-        "sail": true
+        "name": "Irina Rish",
+        "sail": false
+      },
+      {
+        "name": "Pierre-Luc Bacon",
+        "sail": false
       },
       {
         "name": "Razvan Pascanu",
         "sail": false
       },
       {
-        "name": "Sarath Chanda",
-        "sail": false
+        "name": "Aristide Baratin",
+        "sail": true
       }
     ],
     "links": [
-      "https://openreview.net/forum?id=sHSkJqyQgW"
+      "https://openreview.net/forum?id=nmBleuFzaN"
     ]
   },
   {
-    "title": "Nonparametric Partial Disentanglement via Mechanism Sparsity: Sparse Actions, Interventions and Sparse Temporal Dependencies",
-    "venue": "JMLR",
-    "notification": "published May 2026",
+    "title": "Understanding Adam Requires Better Rotation Dependent Assumptions",
+    "venue": "NeurIPS 2025",
+    "notification": "",
     "authors": [
       {
-        "name": "Sébastien Lachapelle",
+        "name": "Tianyue H. Zhang",
+        "sail": false
+      },
+      {
+        "name": "Lucas Maes",
+        "sail": false
+      },
+      {
+        "name": "Alan Milligan",
+        "sail": false
+      },
+      {
+        "name": "Alexia Jolicoeur-Martineau",
         "sail": true
       },
       {
-        "name": "Pau Rodriguez Lopez",
+        "name": "Ioannis Mitliagkas",
         "sail": false
       },
       {
-        "name": "Yash Sharma",
-        "sail": false
-      },
-      {
-        "name": "Katie Everett",
-        "sail": false
-      },
-      {
-        "name": "Rémi Le Priol",
-        "sail": false
-      },
-      {
-        "name": "Alexandre Lacoste",
-        "sail": false
+        "name": "Damien Scieur",
+        "sail": true
       },
       {
         "name": "Simon Lacoste-Julien",
         "sail": true
+      },
+      {
+        "name": "Charles Guille-Escuret",
+        "sail": false
       }
     ],
     "links": [
-      "https://jmlr.org/papers/v27/24-0771.html"
+      "https://openreview.net/forum?id=KD4wgunbhO"
     ]
   },
   {
-    "title": "Iterative Methods via Locally Evolving Set Process",
-    "venue": "NeurIPS 2024",
+    "title": "Manifold Metric: A Loss Landscape Approach for Predicting Model Performance",
+    "venue": "CoLLAs 2025",
     "notification": "",
     "authors": [
       {
-        "name": "Baojian Zhou",
+        "name": "Pranshu Malviya",
         "sail": false
       },
       {
-        "name": "Yifan Sun",
-        "sail": false
-      },
-      {
-        "name": "Xingzhi Guo",
-        "sail": false
-      },
-      {
-        "name": "Deqing Yang",
-        "sail": false
-      },
-      {
-        "name": "Yanghua Xiao",
-        "sail": false
-      },
-      {
-        "name": "Reza Babanezhad",
-        "sail": true
-      }
-    ],
-    "links": [
-      "https://papers.nips.cc/paper_files/paper/2024/hash/fffe5a7804c40465ef2432386850c2c7-Abstract-Conference.html"
-    ]
-  },
-  {
-    "title": "Bias in Motion: Theoretical Insights into the Dynamics of Bias and Robustness in SGD Training",
-    "venue": "NeurIPS 2024",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Anchit Jain",
-        "sail": false
-      },
-      {
-        "name": "Rozhin Nobahari",
+        "name": "Jerry Huang",
         "sail": false
       },
       {
@@ -836,12 +730,16 @@
         "sail": true
       },
       {
-        "name": "Stefano Sarao Mannelli",
+        "name": "Quentin Fournier",
+        "sail": false
+      },
+      {
+        "name": "Sarath Chandar",
         "sail": false
       }
     ],
     "links": [
-      "https://papers.nips.cc/paper_files/paper/2024/hash/2ba538ff6a168e937d07e360045c0d6b-Abstract-Conference.html"
+      "https://arxiv.org/abs/2405.15895"
     ]
   },
   {
@@ -1011,6 +909,48 @@
     ]
   },
   {
+    "title": "Promoting Exploration in Memory-Augmented Adam using Critical Momenta",
+    "venue": "TMLR",
+    "notification": "Published June 2024",
+    "authors": [
+      {
+        "name": "Pranshu Malviya",
+        "sail": false
+      },
+      {
+        "name": "Goncalo Mordido",
+        "sail": false
+      },
+      {
+        "name": "Aristide Baratin",
+        "sail": true
+      },
+      {
+        "name": "Reza Babanezhad",
+        "sail": true
+      },
+      {
+        "name": "Jerry Huang",
+        "sail": false
+      },
+      {
+        "name": "Simon Lacoste-Julien",
+        "sail": true
+      },
+      {
+        "name": "Razvan Pascanu",
+        "sail": false
+      },
+      {
+        "name": "Sarath Chanda",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=sHSkJqyQgW"
+    ]
+  },
+  {
     "title": "PopulAtion Parameter Averaging (PAPA)",
     "venue": "TMLR",
     "notification": "Published May 4th 2024",
@@ -1038,71 +978,6 @@
     ],
     "links": [
       "https://openreview.net/forum?id=cPDVjsOytS"
-    ]
-  },
-  {
-    "title": "Generating and Imputing Tabular Data via Diffusion and Flow-based Gradient-Boosted Trees",
-    "venue": "AISTATS 2024",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Alexia Jolicoeur-Martineau",
-        "sail": true
-      },
-      {
-        "name": "Kilian Fatras",
-        "sail": false
-      },
-      {
-        "name": "Tal Kachman",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://arxiv.org/abs/2309.09968",
-      "https://proceedings.mlr.press/v238/jolicoeur-martineau24a.html"
-    ]
-  },
-  {
-    "title": "Fairness in Submodular Maximization over a Matroid Constraint",
-    "venue": "AISTATS 2024",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Marwa El Halabi",
-        "sail": true
-      },
-      {
-        "name": "Jakub Tarnawski",
-        "sail": false
-      },
-      {
-        "name": "Ashkan Norouzi-Fard",
-        "sail": false
-      },
-      {
-        "name": "Thuy-Duong Vuong",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://arxiv.org/abs/2305.15118",
-      "https://proceedings.mlr.press/v238/el-halabi24a.html"
-    ]
-  },
-  {
-    "title": "Adaptive Quasi-Newton and Anderson Acceleration Framework with Explicit Global (Accelerated) Convergence Rates",
-    "venue": "AISTATS 2024",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Damien Scieur",
-        "sail": true
-      }
-    ],
-    "links": [
-      "https://arxiv.org/abs/2305.19179",
-      "https://proceedings.mlr.press/v238/scieur24a.html"
     ]
   },
   {
@@ -1254,57 +1129,162 @@
     ]
   },
   {
-    "title": "Decision-Aware Actor-Critic with Function Approximation and Theoretical Guarantees",
-    "venue": "NeurIPS 2023",
+    "title": "Generating and Imputing Tabular Data via Diffusion and Flow-based Gradient-Boosted Trees",
+    "venue": "AISTATS 2024",
     "notification": "",
     "authors": [
       {
-        "name": "Sharan Vaswani",
+        "name": "Alexia Jolicoeur-Martineau",
+        "sail": true
+      },
+      {
+        "name": "Kilian Fatras",
         "sail": false
       },
       {
-        "name": "Amirreza Kazemi",
+        "name": "Tal Kachman",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://arxiv.org/abs/2309.09968",
+      "https://proceedings.mlr.press/v238/jolicoeur-martineau24a.html"
+    ]
+  },
+  {
+    "title": "Fairness in Submodular Maximization over a Matroid Constraint",
+    "venue": "AISTATS 2024",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Marwa El Halabi",
+        "sail": true
+      },
+      {
+        "name": "Jakub Tarnawski",
+        "sail": false
+      },
+      {
+        "name": "Ashkan Norouzi-Fard",
+        "sail": false
+      },
+      {
+        "name": "Thuy-Duong Vuong",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://arxiv.org/abs/2305.15118",
+      "https://proceedings.mlr.press/v238/el-halabi24a.html"
+    ]
+  },
+  {
+    "title": "Adaptive Quasi-Newton and Anderson Acceleration Framework with Explicit Global (Accelerated) Convergence Rates",
+    "venue": "AISTATS 2024",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Damien Scieur",
+        "sail": true
+      }
+    ],
+    "links": [
+      "https://arxiv.org/abs/2305.19179",
+      "https://proceedings.mlr.press/v238/scieur24a.html"
+    ]
+  },
+  {
+    "title": "Iterative Methods via Locally Evolving Set Process",
+    "venue": "NeurIPS 2024",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Baojian Zhou",
+        "sail": false
+      },
+      {
+        "name": "Yifan Sun",
+        "sail": false
+      },
+      {
+        "name": "Xingzhi Guo",
+        "sail": false
+      },
+      {
+        "name": "Deqing Yang",
+        "sail": false
+      },
+      {
+        "name": "Yanghua Xiao",
         "sail": false
       },
       {
         "name": "Reza Babanezhad",
         "sail": true
-      },
-      {
-        "name": "Nicolas Le Roux",
-        "sail": false
       }
     ],
     "links": [
-      "https://papers.nips.cc/paper_files/paper/2023/hash/d18d208fa9c333483e5724ade7beff0f-Abstract-Conference.html",
-      "https://arxiv.org/abs/2305.15249"
+      "https://papers.nips.cc/paper_files/paper/2024/hash/fffe5a7804c40465ef2432386850c2c7-Abstract-Conference.html"
     ]
   },
   {
-    "title": "Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation",
-    "venue": "NeurIPS 2023",
+    "title": "Bias in Motion: Theoretical Insights into the Dynamics of Bias and Robustness in SGD Training",
+    "venue": "NeurIPS 2024",
     "notification": "",
     "authors": [
       {
-        "name": "Sébastien Lachapelle",
-        "sail": true
-      },
-      {
-        "name": "Divyat Mahajan",
+        "name": "Anchit Jain",
         "sail": false
       },
       {
-        "name": "Ioannis Mitliagkas",
+        "name": "Rozhin Nobahari",
         "sail": false
       },
       {
-        "name": "Simon Lacoste-Julien",
+        "name": "Aristide Baratin",
         "sail": true
+      },
+      {
+        "name": "Stefano Sarao Mannelli",
+        "sail": false
       }
     ],
     "links": [
-      "https://papers.nips.cc/paper_files/paper/2023/hash/4ef594af0d9a519db8fb292452c461fa-Abstract-Conference.html",
-      "https://arxiv.org/abs/2307.02598"
+      "https://papers.nips.cc/paper_files/paper/2024/hash/2ba538ff6a168e937d07e360045c0d6b-Abstract-Conference.html"
+    ]
+  },
+  {
+    "title": "Using Representation Expressiveness and Learnability\nto Evaluate Self-Supervised Learning Methods",
+    "venue": "TMLR",
+    "notification": "Nov 23",
+    "authors": [
+      {
+        "name": "Yuchen Liu",
+        "sail": false
+      },
+      {
+        "name": "Zhen Liu",
+        "sail": false
+      },
+      {
+        "name": "Aristide Baratin",
+        "sail": true
+      },
+      {
+        "name": "Romain Laroche",
+        "sail": false
+      },
+      {
+        "name": "Aaron Courville",
+        "sail": false
+      },
+      {
+        "name": "Alessandro Sordoni",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=BxdrpnRHNh"
     ]
   },
   {
@@ -1528,40 +1508,6 @@
     ]
   },
   {
-    "title": "Using Representation Expressiveness and Learnability\nto Evaluate Self-Supervised Learning Methods",
-    "venue": "TMLR",
-    "notification": "Nov 23",
-    "authors": [
-      {
-        "name": "Yuchen Liu",
-        "sail": false
-      },
-      {
-        "name": "Zhen Liu",
-        "sail": false
-      },
-      {
-        "name": "Aristide Baratin",
-        "sail": true
-      },
-      {
-        "name": "Romain Laroche",
-        "sail": false
-      },
-      {
-        "name": "Aaron Courville",
-        "sail": false
-      },
-      {
-        "name": "Alessandro Sordoni",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=BxdrpnRHNh"
-    ]
-  },
-  {
     "title": "MAPL: Parameter-Efficient Adaptation of Unimodal Pre-Trained Models for Vision-Language Few-Shot Learning",
     "venue": "EACL 2023",
     "notification": "20 Jan",
@@ -1594,6 +1540,60 @@
     "links": [
       "https://arxiv.org/abs/2210.07179",
       "https://aclanthology.org/2023.eacl-main.185/"
+    ]
+  },
+  {
+    "title": "Decision-Aware Actor-Critic with Function Approximation and Theoretical Guarantees",
+    "venue": "NeurIPS 2023",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Sharan Vaswani",
+        "sail": false
+      },
+      {
+        "name": "Amirreza Kazemi",
+        "sail": false
+      },
+      {
+        "name": "Reza Babanezhad",
+        "sail": true
+      },
+      {
+        "name": "Nicolas Le Roux",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://papers.nips.cc/paper_files/paper/2023/hash/d18d208fa9c333483e5724ade7beff0f-Abstract-Conference.html",
+      "https://arxiv.org/abs/2305.15249"
+    ]
+  },
+  {
+    "title": "Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation",
+    "venue": "NeurIPS 2023",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Sébastien Lachapelle",
+        "sail": true
+      },
+      {
+        "name": "Divyat Mahajan",
+        "sail": false
+      },
+      {
+        "name": "Ioannis Mitliagkas",
+        "sail": false
+      },
+      {
+        "name": "Simon Lacoste-Julien",
+        "sail": true
+      }
+    ],
+    "links": [
+      "https://papers.nips.cc/paper_files/paper/2023/hash/4ef594af0d9a519db8fb292452c461fa-Abstract-Conference.html",
+      "https://arxiv.org/abs/2307.02598"
     ]
   },
   {
@@ -1647,6 +1647,240 @@
     "links": [
       "https://link.springer.com/article/10.1007/s10994-022-06265-x",
       "https://arxiv.org/abs/2102.09645"
+    ]
+  },
+  {
+    "title": "Towards Painless Policy Optimization for Constrained MDPs",
+    "venue": "UAI 2022",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Arushi Jain",
+        "sail": false
+      },
+      {
+        "name": "Sharan Vaswani",
+        "sail": false
+      },
+      {
+        "name": "Reza Babanezhad",
+        "sail": true
+      },
+      {
+        "name": "Csaba Szepesvari",
+        "sail": false
+      },
+      {
+        "name": "Doina Precup",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://proceedings.mlr.press/v180/jain22a.html"
+    ]
+  },
+  {
+    "title": "Only tails matter: Average-Case Universality and Robustness in the Convex Regime",
+    "venue": "ICML 2022",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Leonardo Cunha",
+        "sail": false
+      },
+      {
+        "name": "Gauthier Gidel",
+        "sail": false
+      },
+      {
+        "name": "Fabian Pedregosa",
+        "sail": false
+      },
+      {
+        "name": "Courtney Paquette",
+        "sail": false
+      },
+      {
+        "name": "Damien Scieur",
+        "sail": true
+      }
+    ],
+    "links": [
+      "https://proceedings.mlr.press/v162/cunha22a.html",
+      "https://openreview.net/pdf?id=VKtGrkUvCR"
+    ]
+  },
+  {
+    "title": "Towards Noise-adaptive, Problem-adaptive (Accelerated) SGD",
+    "venue": "ICML 2022",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Sharan Vaswani",
+        "sail": false
+      },
+      {
+        "name": "Benjamin Dubois-Taine",
+        "sail": false
+      },
+      {
+        "name": "Reza Babanezhad",
+        "sail": true
+      }
+    ],
+    "links": [
+      "https://proceedings.mlr.press/v162/vaswani22a.html"
+    ]
+  },
+  {
+    "title": "Image Retrieval from Contextual Descriptions",
+    "venue": "ACL 2022",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Benno Krojer",
+        "sail": false
+      },
+      {
+        "name": "Vaibhav Adlakha",
+        "sail": false
+      },
+      {
+        "name": "Vibhav Vineet",
+        "sail": false
+      },
+      {
+        "name": "Yash Goyal",
+        "sail": true
+      },
+      {
+        "name": "Edoardo Ponti",
+        "sail": false
+      },
+      {
+        "name": "Siva Reddy",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://aclanthology.org/2022.acl-long.241/",
+      "https://arxiv.org/abs/2203.15867"
+    ]
+  },
+  {
+    "title": "On Evaluation Metrics for Graph Generative Models",
+    "venue": "ICLR 2022",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Rylee Thompson",
+        "sail": false
+      },
+      {
+        "name": "Boris Knyazev",
+        "sail": true
+      },
+      {
+        "name": "Elahe Ghalebi",
+        "sail": false
+      },
+      {
+        "name": "Jungtaek Kim",
+        "sail": false
+      },
+      {
+        "name": "Graham W. Taylor",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=EnwCZixjSh",
+      "https://openreview.net/pdf?id=EnwCZixjSh"
+    ]
+  },
+  {
+    "title": "Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation",
+    "venue": "ICLR 2022",
+    "notification": "",
+    "authors": [
+      {
+        "name": "David W. Zhang",
+        "sail": false
+      },
+      {
+        "name": "Yan Zhang",
+        "sail": true
+      },
+      {
+        "name": "Gertjan J. Burghouts",
+        "sail": false
+      },
+      {
+        "name": "Cees G. M. Snoek",
+        "sail": false
+      },
+      {
+        "name": "Simon Lacoste-Julien",
+        "sail": true
+      }
+    ],
+    "links": [
+      "https://openreview.net/forum?id=5K7RRqZEjoS",
+      "https://openreview.net/pdf?id=5K7RRqZEjoS"
+    ]
+  },
+  {
+    "title": "Super-Acceleration with Cyclical Step-sizes",
+    "venue": "AISTATS 2022",
+    "notification": "",
+    "authors": [
+      {
+        "name": "Baptiste Goujaud",
+        "sail": false
+      },
+      {
+        "name": "Damien Scieur",
+        "sail": true
+      },
+      {
+        "name": "Aymeric Dieuleveut",
+        "sail": false
+      },
+      {
+        "name": "Adrien Taylor",
+        "sail": false
+      },
+      {
+        "name": "Fabian Pedregosa",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://proceedings.mlr.press/v151/goujaud22a.html",
+      "https://arxiv.org/abs/2106.09687"
+    ]
+  },
+  {
+    "title": "Nonlinear acceleration of momentum and primal-dual algorithms",
+    "venue": "Mathematical Programming",
+    "notification": "published on 9 Fev 2022",
+    "authors": [
+      {
+        "name": "Raghu Bollapragada",
+        "sail": false
+      },
+      {
+        "name": "Damien Scieur",
+        "sail": true
+      },
+      {
+        "name": "Alexandre d’Aspremont",
+        "sail": false
+      }
+    ],
+    "links": [
+      "https://link.springer.com/article/10.1007/s10107-022-01775-x",
+      "https://arxiv.org/abs/1810.04539"
     ]
   },
   {
@@ -1777,237 +2011,26 @@
     ]
   },
   {
-    "title": "Towards Painless Policy Optimization for Constrained MDPs",
-    "venue": "UAI 2022",
-    "notification": "",
+    "title": "Acceleration Methods",
+    "venue": "Foundations and Trends in Optimization",
+    "notification": "Published on 15 Dec 2021",
     "authors": [
       {
-        "name": "Arushi Jain",
-        "sail": false
-      },
-      {
-        "name": "Sharan Vaswani",
-        "sail": false
-      },
-      {
-        "name": "Reza Babanezhad",
-        "sail": true
-      },
-      {
-        "name": "Csaba Szepesvari",
-        "sail": false
-      },
-      {
-        "name": "Doina Precup",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://proceedings.mlr.press/v180/jain22a.html"
-    ]
-  },
-  {
-    "title": "Nonlinear acceleration of momentum and primal-dual algorithms",
-    "venue": "Mathematical Programming",
-    "notification": "published on 9 Fev 2022",
-    "authors": [
-      {
-        "name": "Raghu Bollapragada",
+        "name": "Alexandre d'Apresmont",
         "sail": false
       },
       {
         "name": "Damien Scieur",
         "sail": true
-      },
-      {
-        "name": "Alexandre d’Aspremont",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://link.springer.com/article/10.1007/s10107-022-01775-x",
-      "https://arxiv.org/abs/1810.04539"
-    ]
-  },
-  {
-    "title": "Only tails matter: Average-Case Universality and Robustness in the Convex Regime",
-    "venue": "ICML 2022",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Leonardo Cunha",
-        "sail": false
-      },
-      {
-        "name": "Gauthier Gidel",
-        "sail": false
-      },
-      {
-        "name": "Fabian Pedregosa",
-        "sail": false
-      },
-      {
-        "name": "Courtney Paquette",
-        "sail": false
-      },
-      {
-        "name": "Damien Scieur",
-        "sail": true
-      }
-    ],
-    "links": [
-      "https://proceedings.mlr.press/v162/cunha22a.html",
-      "https://openreview.net/pdf?id=VKtGrkUvCR"
-    ]
-  },
-  {
-    "title": "Towards Noise-adaptive, Problem-adaptive (Accelerated) SGD",
-    "venue": "ICML 2022",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Sharan Vaswani",
-        "sail": false
-      },
-      {
-        "name": "Benjamin Dubois-Taine",
-        "sail": false
-      },
-      {
-        "name": "Reza Babanezhad",
-        "sail": true
-      }
-    ],
-    "links": [
-      "https://proceedings.mlr.press/v162/vaswani22a.html"
-    ]
-  },
-  {
-    "title": "Image Retrieval from Contextual Descriptions",
-    "venue": "ACL 2022",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Benno Krojer",
-        "sail": false
-      },
-      {
-        "name": "Vaibhav Adlakha",
-        "sail": false
-      },
-      {
-        "name": "Vibhav Vineet",
-        "sail": false
-      },
-      {
-        "name": "Yash Goyal",
-        "sail": true
-      },
-      {
-        "name": "Edoardo Ponti",
-        "sail": false
-      },
-      {
-        "name": "Siva Reddy",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://aclanthology.org/2022.acl-long.241/",
-      "https://arxiv.org/abs/2203.15867"
-    ]
-  },
-  {
-    "title": "Super-Acceleration with Cyclical Step-sizes",
-    "venue": "AISTATS 2022",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Baptiste Goujaud",
-        "sail": false
-      },
-      {
-        "name": "Damien Scieur",
-        "sail": true
-      },
-      {
-        "name": "Aymeric Dieuleveut",
-        "sail": false
       },
       {
         "name": "Adrien Taylor",
         "sail": false
-      },
-      {
-        "name": "Fabian Pedregosa",
-        "sail": false
       }
     ],
     "links": [
-      "https://proceedings.mlr.press/v151/goujaud22a.html",
-      "https://arxiv.org/abs/2106.09687"
-    ]
-  },
-  {
-    "title": "On Evaluation Metrics for Graph Generative Models",
-    "venue": "ICLR 2022",
-    "notification": "",
-    "authors": [
-      {
-        "name": "Rylee Thompson",
-        "sail": false
-      },
-      {
-        "name": "Boris Knyazev",
-        "sail": true
-      },
-      {
-        "name": "Elahe Ghalebi",
-        "sail": false
-      },
-      {
-        "name": "Jungtaek Kim",
-        "sail": false
-      },
-      {
-        "name": "Graham W. Taylor",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=EnwCZixjSh",
-      "https://openreview.net/pdf?id=EnwCZixjSh"
-    ]
-  },
-  {
-    "title": "Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation",
-    "venue": "ICLR 2022",
-    "notification": "",
-    "authors": [
-      {
-        "name": "David W. Zhang",
-        "sail": false
-      },
-      {
-        "name": "Yan Zhang",
-        "sail": true
-      },
-      {
-        "name": "Gertjan J. Burghouts",
-        "sail": false
-      },
-      {
-        "name": "Cees G. M. Snoek",
-        "sail": false
-      },
-      {
-        "name": "Simon Lacoste-Julien",
-        "sail": true
-      }
-    ],
-    "links": [
-      "https://openreview.net/forum?id=5K7RRqZEjoS",
-      "https://openreview.net/pdf?id=5K7RRqZEjoS"
+      "https://www.nowpublishers.com/article/Details/OPT-036",
+      "https://arxiv.org/abs/2101.09545"
     ]
   },
   {
@@ -2187,29 +2210,6 @@
     "links": [
       "https://proceedings.mlr.press/v130/scieur21a.html",
       "https://arxiv.org/abs/2011.03358; http://proceedings.mlr.press/v130/scieur21a.html"
-    ]
-  },
-  {
-    "title": "Acceleration Methods",
-    "venue": "Foundations and Trends in Optimization",
-    "notification": "Published on 15 Dec 2021",
-    "authors": [
-      {
-        "name": "Alexandre d'Apresmont",
-        "sail": false
-      },
-      {
-        "name": "Damien Scieur",
-        "sail": true
-      },
-      {
-        "name": "Adrien Taylor",
-        "sail": false
-      }
-    ],
-    "links": [
-      "https://www.nowpublishers.com/article/Details/OPT-036",
-      "https://arxiv.org/abs/2101.09545"
     ]
   },
   {
