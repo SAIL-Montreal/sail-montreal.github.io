@@ -65,7 +65,7 @@
 
     <h2>SAIL published papers ({{ papers | length }})</h2>
     <ul class="p-papers__list">
-        {% for paper in papers[:3] %}
+        {% for paper in papers[:5] %}
         <li>
             {% if paper.links | length > 0 -%}
             <a href="{{ paper.links[0] }}">{{ paper.title }}</a>
@@ -81,14 +81,14 @@
         </li>
         {% endfor %}
     </ul>
-    {% if papers | length > 3 %}
+    {% if papers | length > 5 %}
     <details class="p-papers">
         <summary>
             <span class="p-papers__show">Show all {{ papers | length }} papers</span>
             <span class="p-papers__hide">Collapse the list</span>
         </summary>
         <ul class="p-papers__list">
-            {% for paper in papers[3:] %}
+            {% for paper in papers[5:] %}
             <li>
                 {% if paper.links | length > 0 -%}
                 <a href="{{ paper.links[0] }}">{{ paper.title }}</a>
