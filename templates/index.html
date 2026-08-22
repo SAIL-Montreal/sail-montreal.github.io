@@ -10,9 +10,26 @@
 .p-papers li { margin-bottom: 1em; }
 .p-papers__meta { display: block; color: #666; }
 .p-papers__authors { display: block; }
-.p-about__photos { display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em; }
-.p-about__photos img { max-width: 100%; height: auto; }
-.p-people { margin-top: 2em; }
+.p-about__photos {
+    float: right;
+    width: 42%;
+    max-width: 250px;
+    margin: 0.4em 0 1em 1.2em;
+}
+.p-about__photos img { width: 100%; height: auto; }
+.p-about__photos img + img { margin-top: 0.8em; }
+@media (max-width: 767px) {
+    .p-about__photos {
+        float: none;
+        width: 100%;
+        max-width: none;
+        margin: 1.5em 0 0;
+        display: flex;
+        gap: 1em;
+    }
+    .p-about__photos img + img { margin-top: 0; }
+}
+.p-people { margin-top: 2em; clear: both; }
 .p-people__group { margin-top: 1.5em; }
 .p-people__grid {
     display: grid;
@@ -39,6 +56,10 @@
 {% set people = load_data(path="people.json") %}
 <section class="p-section">
     <h2>What is SAIL Montreal?</h2>
+    <div class="p-about__photos">
+        <img src="/people/sail-lab-01.jpg" alt="SAIL Montreal lab">
+        <img src="/people/sail-lab-02.jpg" alt="SAIL Montreal lab">
+    </div>
     <p>
         SAIL Montreal (SAIT AI Lab Montreal) is a recently established academic-style
         research lab (in close collaboration with <a href="https://mila.quebec/">Mila</a>)
@@ -60,12 +81,8 @@
         <a href="https://github.com/SamsungSAILMontreal">GitHub</a> —
         <a href="https://huggingface.co/SamsungSAILMontreal">Hugging Face</a>
     </p>
-    <div class="p-about__photos">
-        <img src="/people/sail-lab-01.jpg" alt="SAIL Montreal lab" width="480">
-        <img src="/people/sail-lab-02.jpg" alt="SAIL Montreal lab" width="480">
-    </div>
 
-    <h2>People</h2>
+    <h2 class="p-people">People</h2>
     {% for group in people.groups %}
     <div class="p-people__group">
         <h3>{{ group.label }}</h3>
