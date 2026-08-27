@@ -1,11 +1,10 @@
 {
   "groups": [
     {
-      "label": "VP",
+      "label": "VP, Lab Director",
       "members": [
         {
           "name": "Simon Lacoste-Julien",
-          "title": "VP, Lab Director",
           "image": "/people/simon-lacoste-julien.webp",
           "website": "http://www.iro.umontreal.ca/~slacoste/",
           "scholar": "https://scholar.google.com/citations?user=oejm5IUAAAAJ"
@@ -42,11 +41,10 @@
       ]
     },
     {
-      "label": "Lab Manager",
+      "label": "Office Manager",
       "members": [
         {
           "name": "Geneviève Bernard",
-          "title": "Office Manager",
           "image": "/people/genevieve-bernard.webp"
         }
       ]
@@ -123,32 +121,28 @@
       ]
     },
     {
-      "label": "Alumni",
+      "label": "Alumni Research Scientists",
       "members": [
         {
           "name": "Yash Goyal",
-          "title": "Research Scientist",
           "image": "/people/yash-goyal.webp",
           "website": "https://yash-goyal.github.io/",
           "scholar": "https://scholar.google.com/citations?user=Xa82XjQAAAAJ"
         },
         {
           "name": "Marwa El Halabi",
-          "title": "Research Scientist",
           "image": "/people/marwa-el-halabi.webp",
           "website": "https://sites.google.com/view/marwaelhalabi/home",
           "scholar": "https://scholar.google.com/citations?user=Vd6RW7cAAAAJ"
         },
         {
           "name": "Boris Knyazev",
-          "title": "Research Scientist",
           "image": "/people/boris-knyazev.webp",
           "website": "https://bknyaz.github.io/",
           "scholar": "https://scholar.google.com/citations?user=Dp9VFB0AAAAJ"
         },
         {
           "name": "Sébastien Lachapelle",
-          "title": "Research Scientist",
           "image": "/people/sebastien-lachapelle.webp",
           "website": "https://slachapelle.github.io/",
           "scholar": "https://scholar.google.com/citations?user=uxHoJp8AAAAJ"
