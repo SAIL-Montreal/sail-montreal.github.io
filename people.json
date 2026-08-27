@@ -42,13 +42,6 @@
           "image": "/people/aristide-baratin.webp",
           "website": "https://www.arisbar.org/",
           "scholar": "https://scholar.google.com/citations?user=ZK7OfxkAAAAJ"
-        },
-        {
-          "name": "Sébastien Lachapelle",
-          "title": "Research Scientist",
-          "image": "/people/sebastien-lachapelle.webp",
-          "website": "https://slachapelle.github.io/",
-          "scholar": "https://scholar.google.com/citations?user=uxHoJp8AAAAJ"
         }
       ]
     },
@@ -141,6 +134,38 @@
           "years": "2019–20",
           "image": "/people/daehyun-ji.webp",
           "scholar": "https://scholar.google.com/citations?user=WEZZefcAAAAJ"
+        }
+      ]
+    },
+    {
+      "label": "Alumni",
+      "members": [
+        {
+          "name": "Yash Goyal",
+          "title": "Research Scientist",
+          "image": "/people/yash-goyal.webp",
+          "website": "https://yash-goyal.github.io/"
+        },
+        {
+          "name": "Marwa El Halabi",
+          "title": "Research Scientist",
+          "image": "/people/marwa-el-halabi.webp",
+          "website": "https://sites.google.com/view/marwaelhalabi/home",
+          "scholar": "https://scholar.google.com/citations?user=Vd6RW7cAAAAJ"
+        },
+        {
+          "name": "Boris Knyazev",
+          "title": "Research Scientist",
+          "image": "/people/boris-knyazev.webp",
+          "website": "https://bknyaz.github.io/",
+          "scholar": "https://scholar.google.com/citations?user=Dp9VFB0AAAAJ"
+        },
+        {
+          "name": "Sébastien Lachapelle",
+          "title": "Research Scientist",
+          "image": "/people/sebastien-lachapelle.webp",
+          "website": "https://slachapelle.github.io/",
+          "scholar": "https://scholar.google.com/citations?user=uxHoJp8AAAAJ"
         }
       ]
     }
