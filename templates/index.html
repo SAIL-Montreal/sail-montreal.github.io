@@ -16,6 +16,8 @@
 .p-papers__eq { vertical-align: super; font-size: 0.7em; cursor: help; }
 .p-papers__note { color: #666; font-size: 0.85em; margin: 0 0 0.8em; }
 .p-papers__filter { display: block; width: 100%; max-width: 480px; padding: 0.5em 0.8em; margin: 0 0 0.8em; font-size: 0.95em; border: 1px solid #ccc; border-radius: 8px; font-family: inherit; }
+.p-section-nav { text-align: center; margin: 1em 0 2em; font-size: 0.9em; }
+.p-section-nav a { margin: 0 0.5em; }
 .p-hero__photo { display: block; margin: 0 auto 2em; max-width: 880px; border-radius: 8px; }
 @media (min-width: 900px) {
     .p-hero__photo { width: calc(100% + 160px); margin-left: -80px; margin-right: -80px; }
@@ -82,7 +84,12 @@ a.p-home__logo-link { display: block; }
     {{ section.content | safe }}
     <img class="p-hero__photo" src="/people/sail-lab-04.webp" alt="SAIL Montreal lab" width="960" height="309">
 
-    <h2>SAIL published papers ({{ papers | length }})</h2>
+    <nav class="p-section-nav" aria-label="Sections">
+        <a href="#papers">Papers</a>
+        <a href="#people">People</a>
+        <a href="#related-content">Related Content</a>
+    </nav>
+    <h2 id="papers">SAIL published papers ({{ papers | length }})</h2>
     <p class="p-papers__note">* denotes equal contribution.</p>
     <input class="p-papers__filter" type="search" placeholder="Filter papers by title or author…" aria-label="Filter papers by title or author">
     <ul class="p-papers__list">
@@ -143,7 +150,7 @@ a.p-home__logo-link { display: block; }
     })();
     </script>
 
-    <h2>People</h2>
+    <h2 id="people">People</h2>
     {% for group in people.groups %}
     <div class="p-people__group">
         <h3>{{ group.label }}</h3>
@@ -166,7 +173,7 @@ a.p-home__logo-link { display: block; }
         </div>
     </div>
     {% endfor %}
-    <h2>Related Content</h2>
+    <h2 id="related-content">Related Content</h2>
     <div class="p-videos__grid">
         <a class="p-videos__card" href="https://slideslive.com/38931892/presenting-sail-montreal" target="_blank" rel="noopener">
             <img src="/related/slideslive-presenting-sail.webp" alt="Presenting SAIL Montreal (ICML 2020)" loading="lazy">
