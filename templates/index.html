@@ -14,6 +14,8 @@
 .p-papers__meta { display: block; color: #666; }
 .p-papers__authors { display: block; }
 .p-papers__eq { vertical-align: super; font-size: 0.7em; cursor: help; }
+.p-papers__note { color: #666; font-size: 0.85em; margin: 0 0 0.8em; }
+.p-papers__filter { display: block; width: 100%; max-width: 480px; padding: 0.5em 0.8em; margin: 0 0 0.8em; font-size: 0.95em; border: 1px solid #ccc; border-radius: 8px; font-family: inherit; }
 .p-hero__photo { display: block; margin: 0 auto 2em; max-width: 880px; border-radius: 8px; }
 @media (min-width: 900px) {
     .p-hero__photo { width: calc(100% + 160px); margin-left: -80px; margin-right: -80px; }
@@ -81,6 +83,8 @@ a.p-home__logo-link { display: block; }
     <img class="p-hero__photo" src="/people/sail-lab-04.webp" alt="SAIL Montreal lab" width="960" height="309">
 
     <h2>SAIL published papers ({{ papers | length }})</h2>
+    <p class="p-papers__note">* denotes equal contribution.</p>
+    <input class="p-papers__filter" type="search" placeholder="Filter papers by title or author…" aria-label="Filter papers by title or author">
     <ul class="p-papers__list">
         {% for paper in papers[:5] %}
         <li>
@@ -123,6 +127,21 @@ a.p-home__logo-link { display: block; }
         </ul>
     </details>
     {% endif %}
+    <script>
+    (() => {
+        const input = document.querySelector(".p-papers__filter");
+        const items = Array.from(document.querySelectorAll(".p-papers__list > li"));
+        const details = document.querySelector(".p-papers");
+        const initialOpen = details ? details.open : false;
+        input.addEventListener("input", () => {
+            const q = input.value.trim().toLowerCase();
+            for (const li of items) {
+                li.style.display = !q || li.textContent.toLowerCase().includes(q) ? "" : "none";
+            }
+            if (details) details.open = q ? true : initialOpen;
+        });
+    })();
+    </script>
 
     <h2>People</h2>
     {% for group in people.groups %}
