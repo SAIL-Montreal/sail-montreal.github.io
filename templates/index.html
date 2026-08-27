@@ -163,7 +163,11 @@ a.p-home__logo-link { display: block; }
                 <span class="p-person__avatar" aria-hidden="true">{{ person.name[0] }}</span>
                 {%- endif %}
                 <div class="p-person__name">{{ person.name }}</div>
-                <div class="p-person__title">{{ person.title }}{% if person.years %} ({{ person.years }}){% endif %}</div>
+                {% if person.title or person.years %}
+                <div class="p-person__title">
+                    {%- if person.title %}{{ person.title }}{% endif %}{%- if person.years %} ({{ person.years }}){% endif %}
+                </div>
+                {% endif %}
                 <div class="p-person__links">
                     {% if person.website %}<a href="{{ person.website }}" rel="me">Website</a>{% endif %}
                     {% if person.scholar %}<a href="{{ person.scholar }}" rel="me">Scholar</a>{% endif %}
