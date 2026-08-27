@@ -16,6 +16,7 @@
 .p-papers__eq { vertical-align: super; font-size: 0.7em; cursor: help; }
 .p-about__photos { display: flex; flex-wrap: wrap; gap: 1em; margin-top: 2em; }
 .p-about__photos img { max-width: 100%; height: auto; }
+.p-videos__embed { width: 100%; max-width: 720px; aspect-ratio: 16 / 9; border: 0; display: block; margin-top: 1em; }
 .p-people__group { margin-top: 1.5em; }
 .p-people__grid {
     display: grid;
@@ -71,6 +72,13 @@ a.p-home__logo-link { display: block; }
 {% set people = load_data(path="people.json") %}
 <section class="p-section">
     {{ section.content | safe }}
+
+    <h2>Videos</h2>
+    <iframe class="p-videos__embed" src="https://www.youtube-nocookie.com/embed/bpb6kNLSrEo" title="SAIT AI Lab Montreal Inauguration 2019" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>
+        <a href="https://slideslive.com/38931892/presenting-sail-montreal">Presenting SAIL Montreal</a>
+        (ICML 2020 talk)
+    </p>
 
     <h2>SAIL published papers ({{ papers | length }})</h2>
     <ul class="p-papers__list">
@@ -142,6 +150,8 @@ a.p-home__logo-link { display: block; }
     <div class="p-about__photos">
         <img src="/people/sail-lab-01.webp" alt="SAIL Montreal lab" width="480">
         <img src="/people/sail-lab-02.webp" alt="SAIL Montreal lab" width="480">
+        <img src="/people/sail-lab-03.webp" alt="SAIL Montreal lab" width="480">
+        <img src="/people/sail-lab-04.webp" alt="SAIL Montreal lab" width="480">
     </div>
 
     <h2>Blog</h2>
