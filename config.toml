@@ -6,12 +6,6 @@ description = "Samsung AI Lab, Montréal"
 
 theme = "pickles"
 
-# Optional: enable tags
-taxonomies = [
-    { name = "tags" },
-    { name = "categories" },
-]
-
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
