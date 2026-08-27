@@ -81,12 +81,12 @@ a.p-home__logo-link { display: block; }
 {% set papers = load_data(path="papers.json") %}
 {% set people = load_data(path="people.json") %}
 <section class="p-section">
-    {{ section.content | safe }}
     <nav class="p-section-nav" aria-label="Sections">
         <a href="#papers">Papers</a>
         <a href="#people">People</a>
         <a href="#related-content">Related Content</a>
     </nav>
+    {{ section.content | safe }}
     <img class="p-hero__photo" src="/people/sail-lab-04.webp" alt="SAIL Montreal lab" width="960" height="309">
 
     <h2 id="papers">SAIL published papers ({{ papers | length }})</h2>
