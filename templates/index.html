@@ -16,10 +16,10 @@
 .p-papers__eq { vertical-align: super; font-size: 0.7em; cursor: help; }
 .p-about__photos { display: flex; flex-wrap: wrap; gap: 1em; margin-top: 2em; }
 .p-about__photos img { max-width: 100%; height: auto; }
-.p-videos__card { display: block; max-width: 720px; }
-.p-videos__card img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.p-videos__grid { display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em; }
+.p-videos__card { flex: 1 1 300px; max-width: 420px; }
+.p-videos__card img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; }
 .p-videos__card-caption { display: block; margin-top: 0.5em; font-size: 0.9em; }
-.p-videos__list { margin-top: 1em; }
 .p-people__group { margin-top: 1.5em; }
 .p-people__grid {
     display: grid;
@@ -149,16 +149,25 @@ a.p-home__logo-link { display: block; }
         <img src="/people/sail-lab-03.webp" alt="SAIL Montreal lab" width="480">
         <img src="/people/sail-lab-04.webp" alt="SAIL Montreal lab" width="480">
     </div>
-    <h2>Videos</h2>
-    <a class="p-videos__card" href="https://www.youtube.com/watch?v=bpb6kNLSrEo" target="_blank" rel="noopener">
-        <img src="https://i.ytimg.com/vi/bpb6kNLSrEo/maxresdefault.jpg" alt="SAIT AI Lab Montreal Inauguration 2019" width="1280" height="720" loading="lazy">
-        <span class="p-videos__card-caption">SAIT AI Lab Montreal inauguration 2019</span>
-    </a>
-    <ul class="p-videos__list">
-        <li><a href="https://slideslive.com/38931892/presenting-sail-montreal">Presenting SAIL Montreal (ICML 2020)</a></li>
-        <li><a href="https://www.sait.samsung.co.kr/saithome/about/press_view.do?new_seq=1111">Samsung Electronics Expands SAIT AI Lab Montreal to Spur AI Research for Next-Generation System Semiconductor</a></li>
-        <li><a href="https://news.samsung.com/global/samsung-electronics-launches-ai-lab-in-montreal-canada">Samsung Electronics Launches AI Lab in Montreal, Canada</a></li>
-    </ul>
+    <h2>Related Content</h2>
+    <div class="p-videos__grid">
+        <a class="p-videos__card" href="https://slideslive.com/38931892/presenting-sail-montreal" target="_blank" rel="noopener">
+            <img src="/related/slideslive-presenting-sail.webp" alt="Presenting SAIL Montreal (ICML 2020)" loading="lazy">
+            <span class="p-videos__card-caption">Presenting SAIL Montreal (ICML 2020)</span>
+        </a>
+        <a class="p-videos__card" href="https://www.youtube.com/watch?v=bpb6kNLSrEo" target="_blank" rel="noopener">
+            <img src="/related/inauguration-2019.webp" alt="SAIT AI Lab Montreal Inauguration 2019" loading="lazy">
+            <span class="p-videos__card-caption">SAIT AI Lab Montreal inauguration 2019</span>
+        </a>
+        <a class="p-videos__card" href="https://www.sait.samsung.co.kr/saithome/about/press_view.do?new_seq=1111" target="_blank" rel="noopener">
+            <img src="/related/press-expands-2019.webp" alt="Samsung Electronics Expands SAIT AI Lab Montreal" loading="lazy">
+            <span class="p-videos__card-caption">Samsung Electronics Expands SAIT AI Lab Montreal to Spur AI Research for Next-Generation System Semiconductor</span>
+        </a>
+        <a class="p-videos__card" href="https://news.samsung.com/global/samsung-electronics-launches-ai-lab-in-montreal-canada" target="_blank" rel="noopener">
+            <img src="/related/newsroom-launches-2017.webp" alt="Samsung Electronics Launches AI Lab in Montreal, Canada" loading="lazy">
+            <span class="p-videos__card-caption">Samsung Electronics Launches AI Lab in Montreal, Canada</span>
+        </a>
+    </div>
 
     {% for page in paginator.pages %}
     <article class="c-article p-list-article">
