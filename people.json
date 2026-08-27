@@ -126,24 +126,28 @@
         {
           "name": "Yash Goyal",
           "image": "/people/yash-goyal.webp",
+          "years": "2020–2025",
           "website": "https://yash-goyal.github.io/",
           "scholar": "https://scholar.google.com/citations?user=Xa82XjQAAAAJ"
         },
         {
           "name": "Marwa El Halabi",
           "image": "/people/marwa-el-halabi.webp",
+          "years": "2020–2025",
           "website": "https://sites.google.com/view/marwaelhalabi/home",
           "scholar": "https://scholar.google.com/citations?user=Vd6RW7cAAAAJ"
         },
         {
           "name": "Boris Knyazev",
           "image": "/people/boris-knyazev.webp",
+          "years": "2022–2026",
           "website": "https://bknyaz.github.io/",
           "scholar": "https://scholar.google.com/citations?user=Dp9VFB0AAAAJ"
         },
         {
           "name": "Sébastien Lachapelle",
           "image": "/people/sebastien-lachapelle.webp",
+          "years": "2023–2026",
           "website": "https://slachapelle.github.io/",
           "scholar": "https://scholar.google.com/citations?user=uxHoJp8AAAAJ"
         }
