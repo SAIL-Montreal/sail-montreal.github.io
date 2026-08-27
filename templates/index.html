@@ -16,6 +16,10 @@
 .p-papers__eq { vertical-align: super; font-size: 0.7em; cursor: help; }
 .p-about__photos { display: flex; flex-wrap: wrap; gap: 1em; margin-top: 2em; }
 .p-about__photos img { max-width: 100%; height: auto; }
+.p-hero__photo { display: block; margin: 0 auto 2em; max-width: 800px; border-radius: 8px; }
+@media (min-width: 840px) {
+    .p-hero__photo { width: calc(100% + 80px); margin-left: -40px; margin-right: -40px; }
+}
 .p-videos__grid { display: flex; flex-wrap: wrap; gap: 1em; margin-top: 1em; }
 .p-videos__card { flex: 1 1 300px; max-width: 420px; }
 .p-videos__card img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; }
@@ -75,6 +79,7 @@ a.p-home__logo-link { display: block; }
 {% set people = load_data(path="people.json") %}
 <section class="p-section">
     {{ section.content | safe }}
+    <img class="p-hero__photo" src="/people/sail-lab-04.webp" alt="SAIL Montreal lab" width="960" height="309">
 
     <h2>SAIL published papers ({{ papers | length }})</h2>
     <ul class="p-papers__list">
@@ -146,7 +151,6 @@ a.p-home__logo-link { display: block; }
     <div class="p-about__photos">
         <img src="/people/sail-lab-01.webp" alt="SAIL Montreal lab" width="480">
         <img src="/people/sail-lab-02.webp" alt="SAIL Montreal lab" width="480">
-        <img src="/people/sail-lab-04.webp" alt="SAIL Montreal lab" width="480">
     </div>
     <h2>Related Content</h2>
     <div class="p-videos__grid">
