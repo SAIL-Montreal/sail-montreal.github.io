@@ -238,6 +238,10 @@ def main() -> None:
     def cell(row, i):
         return row[i].strip() if i < len(row) else ""
 
+    def clean_url(u: str) -> str:
+        # Drop OpenReview "referrer" tracking params copied from profile exports.
+        return u.split("&referrer=")[0].split("?referrer=")[0].strip()
+
     # Pass 1: parse rows.
     papers, unmatched, applied_links, applied_titles = [], [], 0, 0
     used_overrides: set[str] = set()
@@ -258,7 +262,7 @@ def main() -> None:
         flags += [expand_flag(p) for p in cell(row, c_coauthor).split(",") if p.strip()]
         flags = [f for f in flags if f]
 
-        links = [l for l in (cell(row, c_link1), cell(row, c_link2)) if l]
+        links = [clean_url(l) for l in (cell(row, c_link1), cell(row, c_link2)) if l]
         ov = overrides.get(norm(title))
         if ov:
             used_overrides.add(norm(title))
