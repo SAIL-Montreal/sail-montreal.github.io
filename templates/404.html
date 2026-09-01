@@ -25,6 +25,12 @@ a.p-home__logo-link { display: block; }
 }
 </style>
 {%- endblock extra_head %}
+{% block css -%}
+<link rel="stylesheet" href="{{ get_url(path="base.css") }}" />
+<link href="{{ get_url(path="fontawesome/fontawesome.css") }}" rel="stylesheet">
+<link href="{{ get_url(path="fontawesome/brands.css") }}" rel="stylesheet">
+<link href="{{ get_url(path="fontawesome/solid.css") }}" rel="stylesheet">
+{%- endblock css %}
 
 {% block header -%}
 <header class="l-header">

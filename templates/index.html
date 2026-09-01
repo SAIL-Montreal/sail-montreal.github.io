@@ -71,7 +71,14 @@ a.p-home__logo-link { display: block; }
 <meta property="og:site_name" content="{{ config.title }}" />
 <meta property="og:url" content="{{ config.base_url }}" />
 <meta property="og:image" content="{{ get_url(path="og-image.png", trailing_slash=false) }}" />
+<meta name="twitter:card" content="summary_large_image" />
 {%- endblock meta %}
+{% block css -%}
+<link rel="stylesheet" href="{{ get_url(path="base.css") }}" />
+<link href="{{ get_url(path="fontawesome/fontawesome.css") }}" rel="stylesheet">
+<link href="{{ get_url(path="fontawesome/brands.css") }}" rel="stylesheet">
+<link href="{{ get_url(path="fontawesome/solid.css") }}" rel="stylesheet">
+{%- endblock css %}
 {% block header -%}
 <header class="l-header">
     <h1 class="p-screen-reader-text">SAIL Montreal</h1>
