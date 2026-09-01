@@ -9,14 +9,14 @@ SAIL Montreal is happy to sponsor [NeurIPS 2022](https://neurips.cc/Conferences/
 
 <!-- more -->
 
-# What is SAIL Montreal?
+## What is SAIL Montreal?
 [SAIL Montreal](https://www.sait.samsung.co.kr/saithome/about/labs.do) (SAIT AI Lab Montreal) is a recently established academic-style research lab (in close collaboration with [Mila](https://mila.quebec/)) from Samsung whose mission is to advance our fundamental understanding of deep learning technology and its applications. Headed by [Simon Lacoste-Julien](https://mila.quebec/en/person/simon-lacoste-julien/), professor in computer science at Université de Montréal and co-founding member of Mila, SAIL is located in Mila's corporate space at the heart of the Montreal AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an open collaborative environment is encouraged.
 
-# We are hiring!
+## We are hiring!
 We are [hiring research scientists](https://www.sait.samsung.co.kr/saithome/about/labs.do)! Scroll down on [that page](https://www.sait.samsung.co.kr/saithome/about/labs.do) for more information about the position and how to apply.
 
 
-# Accepted papers at NeurIPS 2022
+## Accepted papers at NeurIPS 2022
 Click the links for more information on these papers (requires NeurIPS registration).
 
 - <i>[The Curse of Unrolling: Rate of Differentiating Through Optimization](https://nips.cc/virtual/2022/poster/54166)</i> [[arxiv]](https://arxiv.org/abs/2209.13271)<br />
@@ -42,7 +42,7 @@ Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #938
 
 
 
-# Finding us
+## Finding us
 The following research scientists will be available in-person at NeurIPS 2022:
 - [Damien Scieur](https://scholar.google.com/citations?user=hNscQzgAAAAJ)
 - [Reza Babanezhad](https://scholar.google.ca/citations?hl=en&user=KLrwPsgAAAAJ)
@@ -53,10 +53,10 @@ The following research scientists will be available in-person at NeurIPS 2022:
 
 You can find the full list of people on our [main website](https://www.sait.samsung.co.kr/saithome/about/labs.do).
 
-## Booth
+### Booth
 Our booth will be at the Expo hall #224. Our office manager Geneviève Bernard will be there most of the time, with a rotating cast of research scientists.
 
-## Workshops
+### Workshops
 Our research scientist [Alexia Jolicoeur-Martineau](https://scholar.google.com/citations?user=0qytQ1oAAAAJ&hl=en) co-organizes the [Workshop on Score-Based Methods](https://score-based-methods-workshop.github.io/) on Friday December 2 in Room 293-294.
 
 We also have some workshop papers:
