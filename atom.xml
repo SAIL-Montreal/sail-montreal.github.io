@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>SAIL Montreal</title>
+	<subtitle>Samsung AI Lab, Montréal</subtitle>
+	<link href="https://sail-montreal.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="https://sail-montreal.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-07-23T00:00:00+00:00</updated>
+	<id>https://sail-montreal.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>SAIL Montreal @ ICML 2023</title>
+		<published>2023-07-23T00:00:00+00:00</published>
+		<updated>2023-07-23T00:00:00+00:00</updated>
+		<link href="https://sail-montreal.github.io/icml2023/"/>
+		<link rel="alternate" href="https://sail-montreal.github.io/icml2023/" type="text/html"/>
+		<id>https://sail-montreal.github.io/icml2023/</id>
+        <summary type="html">&lt;p&gt;SAIL Montreal is happy to have a strong presence at ICML 2023. Our office manager Geneviève Bernard will be present on site along with some of our research scientist who are happy to have a chat with you.&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;SAIL Montreal is happy to have a strong presence at ICML 2023. Our office manager Geneviève Bernard will be present on site along with some of our research scientist who are happy to have a chat with you.&lt;/p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;/span&gt;&lt;h2 id=&quot;what-is-sail-montreal&quot;&gt;What is SAIL Montreal?&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-sail-montreal&quot; aria-label=&quot;Anchor link for: what-is-sail-montreal&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h2&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.sait.samsung.co.kr/saithome/about/labs.do&quot;&gt;SAIL Montreal&lt;/a&gt; (SAIT AI Lab Montreal) is a recently-established academic-style research lab (in close collaboration with &lt;a rel=&quot;external&quot; href=&quot;https://mila.quebec/&quot;&gt;Mila&lt;/a&gt;) from Samsung whose &lt;strong&gt;mission is to push the boundaries of AI with &lt;a rel=&quot;external&quot; href=&quot;https://www.sait.samsung.co.kr&quot;&gt;SAIT&lt;/a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https://mila.quebec/&quot;&gt;Mila&lt;/a&gt; through open fundamental research&lt;/strong&gt;. Headed by &lt;a rel=&quot;external&quot; href=&quot;https://mila.quebec/en/person/simon-lacoste-julien/&quot;&gt;Simon Lacoste-Julien&lt;/a&gt;, professor in computer science at Université de Montréal and co-founding member of Mila, SAIL is located in Mila&#39;s corporate space at the heart of the Montreal AI ecosystem nearby Borealis AI, Meta AI, Microsoft Research and others where an open collaborative environment is encouraged.&lt;/p&gt;
+&lt;h2 id=&quot;accepted-papers-at-icml-2023&quot;&gt;Accepted papers at ICML 2023&lt;a class=&quot;zola-anchor&quot; href=&quot;#accepted-papers-at-icml-2023&quot; aria-label=&quot;Anchor link for: accepted-papers-at-icml-2023&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h2&gt;
+&lt;p&gt;Click the links for more information on these papers (requires ICML registration). Underlined authors are SAIL-affiliated, * denotes equal contribution between authors.&lt;/p&gt;
+&lt;h3 id=&quot;oral&quot;&gt;Oral&lt;a class=&quot;zola-anchor&quot; href=&quot;#oral&quot; aria-label=&quot;Anchor link for: oral&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/24871&quot;&gt;Difference of submodular minimization via DC programming&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=e1lKKjkNMj&quot;&gt;[openreview]&lt;/a&gt; &lt;a rel=&quot;external&quot; href=&quot;https://github.com/samsungsailmontreal/difference-submodular-min&quot;&gt;[code]&lt;/a&gt;&lt;br /&gt;
+&lt;u&gt;Marwa El Halabi&lt;/u&gt;, George Orfanides, Tim Hoheisel&lt;br /&gt;
+&lt;strong&gt;Oral&lt;/strong&gt; presentation: &lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/session/25595&quot;&gt;Oral C1 supervised learning&lt;/a&gt;
+Thu 27 Jul
+3 p.m. HST —
+4:30 p.m. HST&lt;br /&gt;
+Exhibit Hall 1 #643, Wed 26 Jul 11 a.m. HST — 12:30 p.m. HST&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;tuesday&quot;&gt;Tuesday&lt;a class=&quot;zola-anchor&quot; href=&quot;#tuesday&quot; aria-label=&quot;Anchor link for: tuesday&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/24697&quot;&gt;Unlocking Slot Attention by Changing Optimal Transport Costs&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=FMomWFNh5d&quot;&gt;[openreview]&lt;/a&gt; &lt;a rel=&quot;external&quot; href=&quot;https://github.com/davzha/mesh&quot;&gt;[code]&lt;/a&gt;&lt;br /&gt;
+&lt;u&gt;Yan Zhang*&lt;/u&gt;, David W Zhang*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek&lt;br /&gt;
+Exhibit Hall 1 #111, Tue 25 Jul
+11 a.m. HST —
+1:30 p.m. HST&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/24569&quot;&gt;Can We Scale Transformers to Predict Parameters of Diverse ImageNet Models?&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=7UXf8dAz5T&quot;&gt;[openreview]&lt;/a&gt; &lt;a rel=&quot;external&quot; href=&quot;https://github.com/SamsungSAILMontreal/ghn3&quot;&gt;[code]&lt;/a&gt;&lt;br /&gt;
+&lt;u&gt;Boris Knyazev&lt;/u&gt;, &lt;u&gt;Doha Hwang&lt;/u&gt;, &lt;u&gt;Simon Lacoste-Julien&lt;/u&gt;&lt;br /&gt;
+Exhibit Hall 1 #808, Wed 26 Jul
+11 a.m. HST —
+12:30 p.m. HST&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;wednesday&quot;&gt;Wednesday&lt;a class=&quot;zola-anchor&quot; href=&quot;#wednesday&quot; aria-label=&quot;Anchor link for: wednesday&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/24603&quot;&gt;Fairness in Streaming Submodular Maximization over a Matroid Constraint&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=KrsaROSs8b&quot;&gt;[openreview]&lt;/a&gt; &lt;a rel=&quot;external&quot; href=&quot;https://github.com/google-research/google-research/tree/master/fair_submodular_matroid&quot;&gt;[code]&lt;/a&gt;&lt;br /&gt;
+&lt;u&gt;Marwa El Halabi*&lt;/u&gt;, Ashkan Norouzi-Fard*, Jakab Tardos*, Jakub Tarnawski*, Federico Fusco*&lt;br /&gt;
+Exhibit Hall 1 #642, Wed 26 Jul
+11 a.m. HST —
+12:30 p.m. HST&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/24871&quot;&gt;Difference of submodular minimization via DC programming&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=e1lKKjkNMj&quot;&gt;[openreview]&lt;/a&gt; &lt;a rel=&quot;external&quot; href=&quot;https://github.com/samsungsailmontreal/difference-submodular-min&quot;&gt;[code]&lt;/a&gt;&lt;br /&gt;
+&lt;u&gt;Marwa El Halabi&lt;/u&gt;, George Orfanides, Tim Hoheisel&lt;br /&gt;
+&lt;strong&gt;Oral&lt;/strong&gt; presentation: &lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/session/25595&quot;&gt;Oral C1 supervised learning&lt;/a&gt;
+Thu 27 Jul
+3 p.m. HST —
+4:30 p.m. HST&lt;br /&gt;
+Exhibit Hall 1 #643, Wed 26 Jul 11 a.m. HST — 12:30 p.m. HST&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/24728&quot;&gt;CrossSplit: Mitigating Label Noise Memorization through Data Splitting&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=yeF3FMIIpm&quot;&gt;[openreview]&lt;/a&gt;&lt;br /&gt;
+&lt;u&gt;Jihye Kim&lt;/u&gt;, &lt;u&gt;Aristide Baratin&lt;/u&gt;, &lt;u&gt;Yan Zhang&lt;/u&gt;, &lt;u&gt;Simon Lacoste-Julien&lt;/u&gt;&lt;/u&gt;&lt;br /&gt;
+Exhibit Hall 1 #210, Wed 26 Jul
+11 a.m. HST —
+12:30 p.m. HST&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/24172&quot;&gt;Fast Online Node Labelling with Local and Global Consistency&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=p6T3omuNZK&quot;&gt;[openreview]&lt;/a&gt;&lt;br /&gt;
+Baojian Zhou, Yifan Sun, &lt;u&gt;Reza Babanezhad&lt;/u&gt;&lt;br /&gt;
+Exhibit Hall 1 #723, Wed 26 Jul
+2 p.m. HST —
+3:30 p.m. HST&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/24360&quot;&gt;Target-based Surrogates for Stochastic Optimization&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=QExVqoGknN&quot;&gt;[openreview]&lt;/a&gt;&lt;br /&gt;
+Jonathon W. Lavington, Sharan Vaswani, &lt;u&gt;Reza Babanezhad&lt;/u&gt;, Mark Schmidt, Nicolas Le Roux&lt;br /&gt;
+Exhibit Hall 1 #438, Wed 26 Jul
+2 p.m. HST —
+3:30 p.m. HST&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;thursday&quot;&gt;Thursday&lt;a class=&quot;zola-anchor&quot; href=&quot;#thursday&quot; aria-label=&quot;Anchor link for: thursday&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/poster/23623&quot;&gt;Equivariance with Learned Canonicalization Functions&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=Jng8ejqTZi&quot;&gt;[openreview]&lt;/a&gt;&lt;br /&gt;
+Sékou-Oumar Kaba*, Arnab Kumar Mondal*, &lt;u&gt;Yan Zhang&lt;/u&gt;, Yoshua Bengio, Siamak Ravanbakhsh&lt;br /&gt;
+Exhibit Hall 1 #127, Thu 27 Jul
+1:30 p.m. HST —
+3 p.m. HST&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;finding-us&quot;&gt;Finding us&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-us&quot; aria-label=&quot;Anchor link for: finding-us&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h2&gt;
+&lt;p&gt;The following research scientists will be available in-person at ICML 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.ca/citations?user=Dp9VFB0AAAAJ&amp;amp;hl&quot;&gt;Boris Knyazev&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.ca/citations?hl=en&amp;amp;user=KLrwPsgAAAAJ&quot;&gt;Reza Babanezhad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=Vd6RW7cAAAAJ&quot;&gt;Marwa El Halabi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=Xa82XjQAAAAJ&quot;&gt;Yash Goyal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=XtCqbfEAAAAJ&quot;&gt;Yan Zhang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=USrf_BYAAAAJ&quot;&gt;Jihye Kim&lt;/a&gt; (Visiting Research Scientist)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Come find us at our posters, or send us an email to arrange something individual.
+You can find the full list of people on our &lt;a rel=&quot;external&quot; href=&quot;https://www.sait.samsung.co.kr/saithome/about/labs.do&quot;&gt;main website&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;workshops&quot;&gt;Workshops&lt;a class=&quot;zola-anchor&quot; href=&quot;#workshops&quot; aria-label=&quot;Anchor link for: workshops&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h3&gt;
+&lt;p&gt;We also have some workshop papers:&lt;/p&gt;
+&lt;h4 id=&quot;friday&quot;&gt;Friday&lt;a class=&quot;zola-anchor&quot; href=&quot;#friday&quot; aria-label=&quot;Anchor link for: friday&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;Pretrained Language Models to Solve Graph Tasks in Natural Language&lt;/i&gt;&lt;br /&gt;
+Frederik Wenkel, Guy Wolf, &lt;u&gt;Boris Knyazev&lt;/u&gt;&lt;br /&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https://spigmworkshop.github.io/&quot;&gt;ICML Workshop on Structured Probabilistic Inference &amp;amp; Generative Modeling&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;Learning to Optimize with Recurrent Hierarchical Transformers&lt;/i&gt;&lt;br /&gt;
+Abhinav Moudgil, &lt;u&gt;Boris Knyazev&lt;/u&gt;, Guillaume Lajoie, Eugene Belilovsky&lt;br /&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https://frontiers4lcd.github.io/&quot;&gt;ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://icml.cc/virtual/2023/27533&quot;&gt;Neural Networks Are Graphs! Graph Neural Networks for Equivariant Processing of Neural Networks&lt;/a&gt;&lt;/i&gt;&lt;br /&gt;
+David W. Zhang, Miltiadis Kofinas, &lt;u&gt;Yan Zhang&lt;/u&gt;, Yunlu Chen, Gertjan J. Burghouts, Cees G. M. Snoek&lt;br /&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https://www.tagds.com/events/conference-workshops/tag-ml23&quot;&gt;ICML Workshop on Topology, Algebra, and Geometry in Data Science&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;saturday&quot;&gt;Saturday&lt;a class=&quot;zola-anchor&quot; href=&quot;#saturday&quot; aria-label=&quot;Anchor link for: saturday&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Decision-Aware Actor-Critic with Function Approximation and Theoretical Guarantees&lt;/i&gt;&lt;br /&gt;
+Sharan Vaswani, Amirreza Kazemi, &lt;u&gt;Reza Babanezhad&lt;/u&gt;, Nicolas Le Roux&lt;br /&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https://dp4ml.github.io/&quot;&gt;ICML Workshop on Duality Principles for Modern ML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>SAIL Montreal @ NeurIPS 2022</title>
+		<published>2022-11-28T00:00:00+00:00</published>
+		<updated>2022-11-28T00:00:00+00:00</updated>
+		<link href="https://sail-montreal.github.io/neurips2022/"/>
+		<link rel="alternate" href="https://sail-montreal.github.io/neurips2022/" type="text/html"/>
+		<id>https://sail-montreal.github.io/neurips2022/</id>
+        <summary type="html">&lt;p&gt;SAIL Montreal is happy to sponsor &lt;a rel=&quot;external&quot; href=&quot;https://neurips.cc/Conferences/2022/&quot;&gt;NeurIPS 2022&lt;/a&gt;! We will have a booth where you can meet some of our research scientists.&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;SAIL Montreal is happy to sponsor &lt;a rel=&quot;external&quot; href=&quot;https://neurips.cc/Conferences/2022/&quot;&gt;NeurIPS 2022&lt;/a&gt;! We will have a booth where you can meet some of our research scientists.&lt;/p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;/span&gt;&lt;h2 id=&quot;what-is-sail-montreal&quot;&gt;What is SAIL Montreal?&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-sail-montreal&quot; aria-label=&quot;Anchor link for: what-is-sail-montreal&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h2&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.sait.samsung.co.kr/saithome/about/labs.do&quot;&gt;SAIL Montreal&lt;/a&gt; (SAIT AI Lab Montreal) is a recently established academic-style research lab (in close collaboration with &lt;a rel=&quot;external&quot; href=&quot;https://mila.quebec/&quot;&gt;Mila&lt;/a&gt;) from Samsung whose mission is to advance our fundamental understanding of deep learning technology and its applications. Headed by &lt;a rel=&quot;external&quot; href=&quot;https://mila.quebec/en/person/simon-lacoste-julien/&quot;&gt;Simon Lacoste-Julien&lt;/a&gt;, professor in computer science at Université de Montréal and co-founding member of Mila, SAIL is located in Mila&#39;s corporate space at the heart of the Montreal AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an open collaborative environment is encouraged.&lt;/p&gt;
+&lt;h2 id=&quot;we-are-hiring&quot;&gt;We are hiring!&lt;a class=&quot;zola-anchor&quot; href=&quot;#we-are-hiring&quot; aria-label=&quot;Anchor link for: we-are-hiring&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h2&gt;
+&lt;p&gt;We are &lt;a rel=&quot;external&quot; href=&quot;https://www.sait.samsung.co.kr/saithome/about/labs.do&quot;&gt;hiring research scientists&lt;/a&gt;! Scroll down on &lt;a rel=&quot;external&quot; href=&quot;https://www.sait.samsung.co.kr/saithome/about/labs.do&quot;&gt;that page&lt;/a&gt; for more information about the position and how to apply.&lt;/p&gt;
+&lt;h2 id=&quot;accepted-papers-at-neurips-2022&quot;&gt;Accepted papers at NeurIPS 2022&lt;a class=&quot;zola-anchor&quot; href=&quot;#accepted-papers-at-neurips-2022&quot; aria-label=&quot;Anchor link for: accepted-papers-at-neurips-2022&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h2&gt;
+&lt;p&gt;Click the links for more information on these papers (requires NeurIPS registration).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://nips.cc/virtual/2022/poster/54166&quot;&gt;The Curse of Unrolling: Rate of Differentiating Through Optimization&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2209.13271&quot;&gt;[arxiv]&lt;/a&gt;&lt;br /&gt;
+&lt;u&gt;Damien Scieur&lt;/u&gt;, Quentin Bertrand, Gauthier Gidel and Fabian Pedregosa&lt;br /&gt;
+Wed 30 Nov 11:30 a.m. CST — 1 p.m. CST @ Hall J #724&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://nips.cc/virtual/2022/poster/55727&quot;&gt;Model Zoos: A Dataset of Diverse Populations of Neural Network Models&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2209.14764&quot;&gt;[arxiv]&lt;/a&gt;&lt;br /&gt;
+Konstantin Schürholt, Diyar Taskiran, &lt;u&gt;Boris Knyazev&lt;/u&gt;, Xavier Giró-i-Nieto, Damian Borth&lt;br /&gt;
+Wed 30 Nov 11:30 a.m. CST — 1 p.m. CST @ Hall J #1017&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://nips.cc/virtual/2022/poster/53429&quot;&gt;Hyper-Representations as Generative Models: Sampling Unseen Neural Network Weights&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2209.14733&quot;&gt;[arxiv]&lt;/a&gt;&lt;br /&gt;
+Konstantin Schürholt, &lt;u&gt;Boris Knyazev&lt;/u&gt;, Xavier Giró-i-Nieto, Damian Borth&lt;br /&gt;
+Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #605&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://nips.cc/virtual/2022/poster/54707&quot;&gt;MCVD: Masked Conditional Video Diffusion for Prediction&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2205.09853&quot;&gt;[arxiv]&lt;/a&gt;&lt;br /&gt;
+Vikram Voleti, &lt;u&gt;Alexia Jolicoeur-Martineau&lt;/u&gt;, Christopher Pal&lt;br /&gt;
+Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #921&lt;br /&gt;
+Spotlight: Tue 6 Dec 8 p.m. CST — 8:15 p.m. CST&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://nips.cc/virtual/2022/poster/54208&quot;&gt;Data-Efficient Structured Pruning via Submodular Optimization&lt;/a&gt;&lt;/i&gt; &lt;a rel=&quot;external&quot; href=&quot;https://arxiv.org/abs/2203.04940&quot;&gt;[arxiv]&lt;/a&gt;&lt;br /&gt;
+&lt;u&gt;Marwa El Halabi&lt;/u&gt;, Suraj Srinivas, &lt;u&gt;Simon Lacoste-Julien&lt;/u&gt;&lt;br /&gt;
+Thu 1 Dec 11:30 a.m. CST — 1 p.m. CST @ Hall J #938&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;finding-us&quot;&gt;Finding us&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-us&quot; aria-label=&quot;Anchor link for: finding-us&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h2&gt;
+&lt;p&gt;The following research scientists will be available in-person at NeurIPS 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=hNscQzgAAAAJ&quot;&gt;Damien Scieur&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.ca/citations?hl=en&amp;amp;user=KLrwPsgAAAAJ&quot;&gt;Reza Babanezhad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=Vd6RW7cAAAAJ&quot;&gt;Marwa El Halabi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=XtCqbfEAAAAJ&quot;&gt;Yan Zhang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=USrf_BYAAAAJ&quot;&gt;Jihye Kim&lt;/a&gt; (Visiting Research Scientist)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=ZK7OfxkAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&quot;&gt;Aristide Baratin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find the full list of people on our &lt;a rel=&quot;external&quot; href=&quot;https://www.sait.samsung.co.kr/saithome/about/labs.do&quot;&gt;main website&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;booth&quot;&gt;Booth&lt;a class=&quot;zola-anchor&quot; href=&quot;#booth&quot; aria-label=&quot;Anchor link for: booth&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h3&gt;
+&lt;p&gt;Our booth will be at the Expo hall #224. Our office manager Geneviève Bernard will be there most of the time, with a rotating cast of research scientists.&lt;/p&gt;
+&lt;h3 id=&quot;workshops&quot;&gt;Workshops&lt;a class=&quot;zola-anchor&quot; href=&quot;#workshops&quot; aria-label=&quot;Anchor link for: workshops&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+&lt;/h3&gt;
+&lt;p&gt;Our research scientist &lt;a rel=&quot;external&quot; href=&quot;https://scholar.google.com/citations?user=0qytQ1oAAAAJ&amp;amp;hl=en&quot;&gt;Alexia Jolicoeur-Martineau&lt;/a&gt; co-organizes the &lt;a rel=&quot;external&quot; href=&quot;https://score-based-methods-workshop.github.io/&quot;&gt;Workshop on Score-Based Methods&lt;/a&gt; on Friday December 2 in Room 293-294.&lt;/p&gt;
+&lt;p&gt;We also have some workshop papers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://attention-learning-workshop.github.io/2022/papers/zhang-unlocking_slot_attention_by_changing_optimal_transport_costs.pdf&quot;&gt;Unlocking Slot Attention by Changing Optimal Transport Costs&lt;/a&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;u&gt;Yan Zhang&lt;/u&gt;*, David W Zhang*, &lt;u&gt;Simon Lacoste-Julien&lt;/u&gt;, Gertjan J. Burghouts, Cees G. M. Snoek&lt;br /&gt;
+Poster at &lt;a rel=&quot;external&quot; href=&quot;https://attention-learning-workshop.github.io/&quot;&gt;All Things Attention&lt;/a&gt;, December 2 (hybrid in-person and virtual)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=pVD1k8ge25a&quot;&gt;Equivariance With Learned Canonicalization Functions&lt;/a&gt;&lt;/i&gt;&lt;br /&gt;
+Sékou-Oumar Kaba*, Arnab Kumar Mondal*, &lt;u&gt;Yan Zhang&lt;/u&gt;, Yoshua Bengio, Siamak Ravanbakhsh&lt;br /&gt;
+Oral at &lt;a rel=&quot;external&quot; href=&quot;https://www.neurreps.org/&quot;&gt;Symmetry and Geometry in Neural Representations&lt;/a&gt;, December 3 (in-person)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://openreview.net/forum?id=22tWlk_NycL&quot;&gt;Target-based Surrogates for Stochastic Optimization&lt;/a&gt;&lt;/i&gt;&lt;br /&gt;
+J. Wilder Lavington, Sharan Vaswani, &lt;u&gt;Reza Babanezhad&lt;/u&gt;, Mark Schmidt, Nicolas Le Roux&lt;br /&gt;
+Poster at &lt;a rel=&quot;external&quot; href=&quot;https://opt-ml.org/&quot;&gt;Optimization for Machine Learning&lt;/a&gt;, December 3 (in-person)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i&gt;&lt;a rel=&quot;external&quot; href=&quot;https://ncsi.cause-lab.net/pdf/nCSI_2.pdf&quot;&gt;Unlocking Slot Attention by Changing Optimal Transport Costs&lt;/a&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;u&gt;Yan Zhang&lt;/u&gt;*, David W Zhang*, &lt;u&gt;Simon Lacoste-Julien&lt;/u&gt;, Gertjan J. Burghouts, Cees G. M. Snoek&lt;br /&gt;
+Oral at &lt;a rel=&quot;external&quot; href=&quot;https://ncsi.cause-lab.net/&quot;&gt;Neuro Causal and Symbolic AI&lt;/a&gt;, December 9 (virtual)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+</feed>
