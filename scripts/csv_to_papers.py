@@ -240,7 +240,11 @@ def main() -> None:
 
     def clean_url(u: str) -> str:
         # Drop OpenReview "referrer" tracking params copied from profile exports.
-        return u.split("&referrer=")[0].split("?referrer=")[0].strip()
+        u = u.split("&referrer=")[0].split("?referrer=")[0].strip()
+        # PMLR serves https; a few CSV rows carry the http form.
+        if u.startswith("http://proceedings.mlr.press"):
+            u = "https" + u[len("http"):]
+        return u
 
     # Pass 1: parse rows.
     papers, unmatched, applied_links, applied_titles = [], [], 0, 0
