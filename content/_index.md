@@ -6,14 +6,7 @@ insert_anchor_links = "right"
 
 ## What is SAIL Montreal?
 
-SAIL Montreal (SAIT AI Lab Montreal) is a recently established academic-style
-research lab (in close collaboration with [Mila](https://mila.quebec/))
-from Samsung whose mission is to advance our fundamental understanding of deep
-learning technology and its applications. Headed by Simon Lacoste-Julien,
-professor in computer science at Université de Montréal and co-founding member
-of Mila, SAIL is located in Mila's corporate space at the heart of the Montreal
-AI ecosystem nearby Borealis AI, FAIR, Microsoft Research and others where an
-open collaborative environment is encouraged.
+**Samsung AI Lab (SAIL)  Montreal** is an academic-style research lab working closely with [Mila](https://mila.quebec/) on fundamental and applied AI research. The lab is headed by Simon Lacoste-Julien, professor at Université de Montréal and co-founding member of Mila. It is located in Mila’s corporate space at the heart of the Montreal AI ecosystem nearby Cohere, Borealis AI, Meta AI, Microsoft Research and other labs where an open collaborative environment is encouraged.
 
 Code:
 [GitHub](https://github.com/SamsungSAILMontreal) —
