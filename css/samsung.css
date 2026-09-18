@@ -1,0 +1,51 @@
+/* Official Samsung brand typography.
+   Font files: Samsung's design-system woff2 (SamsungSSBody / SamsungSSHead),
+   vendored from developer.samsung.com. */
+@font-face {
+    font-family: "SamsungOne Body";
+    src: url("/fonts/SamsungSSBody-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SamsungOne Body";
+    src: url("/fonts/SamsungSSBody-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SamsungOne Head";
+    src: url("/fonts/SamsungSSHead-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SamsungOne Head";
+    src: url("/fonts/SamsungSSHead-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SamsungOne Head";
+    src: url("/fonts/SamsungSSHead-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "SamsungOne Body", "Atkinson Hyperlegible", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+summary {
+    font-family: "SamsungOne Head", "Source Sans Pro", sans-serif;
+}
